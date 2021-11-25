@@ -14,3 +14,5 @@ une page html par membre du groupe et une feuille de style commune (pour toutes 
 Cf. Rendu final du projet pédagogique.
 
 5/ js autorisé mais pas de php (les pages auront l'extension html).
+
+6/ Test
