@@ -2,7 +2,7 @@
 
 Refonte HTML/CSS d'un site existant : https://www.lemademoiselle.fr/
 
-T'ES UN PEU CON YANIS, Vraiment trop même
+T'ES UN PEU CON YANIS, Vraiment trop même, T'es autiste mec, t'as vraiment cru?
 
 # Étapes
 
