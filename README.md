@@ -1,6 +1,6 @@
 # ESGI-Web-Projet_Refonte
 
-Refonte HTML/CSS d'un site existant : https://www.youtube.com/channel/UCfimTQCcBknm6l7_cWdTLQw
+Refonte HTML/CSS d'un site existant : https://restaurant-lemurat.fr/
 
 
 # Étapes
@@ -21,7 +21,8 @@ Refonte HTML/CSS d'un site existant : https://www.youtube.com/channel/UCfimTQCcB
 
 # Répartition des tâches
 
-Yanis OUANDJLI : cocktails.html
+Yanis OUANDJLI : infos.html + reservation.html
 Romain NEROT   : carte.hmtl
 Anto BENEDETTI : index.html
-Commun         : style.css
+Commun         : style.css + header & footer dans les fichiers html
+
