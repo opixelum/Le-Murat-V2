@@ -2,7 +2,7 @@
 
 Refonte HTML/CSS d'un site existant : https://www.lemademoiselle.fr/
 
-https://www.youtube.com/watch?v=dQw4w9WgXcQ
+https://www.youtube.com/watch?v=TnjOt1r0Nsg
 
 # Étapes
 
