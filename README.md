@@ -22,7 +22,9 @@ Refonte HTML/CSS d'un site existant : https://restaurant-lemurat.fr/
 # Répartition des tâches
 
 Yanis OUANDJLI : infos.html + reservation.html
-Romain NEROT   : carte.hmtl
-Anto BENEDETTI : index.html
-Commun         : style.css + header & footer dans les fichiers html
 
+Romain NEROT   : carte.hmtl
+
+Anto BENEDETTI : index.html
+
+Commun         : style.css + header & footer dans les fichiers html
