@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(255,255,255);
+    color: grey;
+    margin:0px;
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: grey;
+    display: block;
+    padding: 1em 1em;
+}
+
+a:hover {
+    color: rgb(204, 153, 50);
+}
+
+nav ul{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+
+}
+
+header{
+    width: 100%;
+    background-color: rgb(255,255,255);
+    top: 0;
+    z-index: 10;
+}
+
+main{
+    background-color: rgb(0,0,0);
+}
+
+footer{
+    background-color: rgb(255,255,255);
+}
+
+.bienvenue h1{
+    text-align: center;
+}
+
+.bienvenue video{
+    display: flex;
+    width: 50%;
+}
