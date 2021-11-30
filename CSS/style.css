@@ -46,3 +46,11 @@ footer {
     display: flex;
     width: 50%;
 }
+
+.animation {
+    position: relative;
+    animation: animate 0.4s
+}
+@keyframes animate {
+    from {right: -300px; opacity: 0} to {right: 0; opacity: 1}
+}

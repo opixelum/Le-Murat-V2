@@ -98,7 +98,7 @@
         </table>
       </div>
 
-      <!-- Slideshow de l'équipe en cuisine -->
+      <!-- Équipe en cuisine -->
       <div id="équipe" class="équipe">
         <h2>La cuisine, plus qu'une passion</h2>
         <p>Nous transmettons notre savoir-faire culinaire de générations en générations.
@@ -107,6 +107,44 @@
         Nous cuisinons uniquement des produits frais du terroir français, sélectionnés
         avec soin. Venez faire passer un moment inoubliable à vos papilles gustatives
         dans notre restaurant décoré chaleureusement.</p>
+
+        <!-- Slideshow des chefs -->
+        <div class="slideshow" style="max-width:500px">
+          <div class="slide animation">
+            <img src="Images/Équipe/gerard_menvussa.png" style="width:100%">
+            <p>Gérard MENVUSSA - Chef étoilé</p>  
+          </div>
+          <div class="slide animation">
+            <img src="Images/Équipe/sam_shoff.jpg" style="width:100%">
+            <p>Sam SHOFF - Chef pâtissier</p>
+          </div>
+          <div class="slide animation">
+            <img src="Images/Équipe/aubin_sahalor.png" style="width:100%">
+            <p>Aubin SAHALOR - Chef saucier</p>  
+          </div>
+          <div class="slide animation">
+            <img src="Images/Équipe/ademar_okardetour.jpg" style="width:100%">
+            <p>Ademat OKARDETOUR - Chef rôtissier</p>
+          </div>
+        </div>
+        
+        <!-- JavaScript pour le slideshow -->
+        <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("slide");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 4000);    
+        }
+        </script>
       </div>
     </main>
       
