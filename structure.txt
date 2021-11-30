@@ -1,3 +1,6 @@
+Utiliser au maximum des flexboxes
+Centrer les items
+
 Header :
 
     - Logo
@@ -18,9 +21,10 @@ index.html
 
     - Header
     - Bienvenue au restaurant Le Murat
+    - Vidéo
     - Plats du jour
     - Paragraphe d'accroche
     - Image du restaurant (paralax)
+    - Slides plats
     - Plats les plus aimés par les clients (description du plat sur image)
-    - Vidéo
     - Footer
