@@ -25,6 +25,6 @@ index.html
     - Plats du jour
     - Paragraphe d'accroche
     - Image du restaurant (paralax)
-    - Slides plats
     - Plats les plus aimés par les clients (description du plat sur image)
+    - Slides équipe de cuisine
     - Footer
