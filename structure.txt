@@ -22,4 +22,5 @@ index.html
     - Image du restaurant (paralax)
     - Petite phrase de présentation
     - Vidéo
+    - Navigation avec images
     - Footer
