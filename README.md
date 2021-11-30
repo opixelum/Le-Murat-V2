@@ -23,7 +23,7 @@ Refonte HTML/CSS d'un site existant : https://restaurant-lemurat.fr/
 
 Yanis OUANDJLI : infos.html + reservation.html
 
-Romain NEROT   : carte.hmtl
+Romain NEROT   : carte.html
 
 Anto BENEDETTI : index.html
 
