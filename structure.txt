@@ -5,7 +5,6 @@ Header :
 
         - Accueil
         - Carte
-        - Notre histoire
         - Réservation
         - Nous contacter
 
@@ -19,8 +18,9 @@ index.html
 
     - Header
     - Bienvenue au restaurant Le Murat
+    - Plats du jour
     - Image du restaurant (paralax)
-    - Petite phrase de présentation
+    - Notre histoire
     - Vidéo
     - Navigation avec images
     - Footer
