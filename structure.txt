@@ -19,8 +19,8 @@ index.html
     - Header
     - Bienvenue au restaurant Le Murat
     - Plats du jour
+    - Paragraphe d'accroche
     - Image du restaurant (paralax)
-    - Notre histoire
+    - Plats les plus aimés par les clients (description du plat sur image)
     - Vidéo
-    - Navigation avec images
     - Footer
