@@ -1,0 +1,26 @@
+Header :
+
+    - Logo
+    - Navigation :
+
+        - Accueil
+        - Carte
+        - Notre histoire
+        - Réservation
+        - Nous contacter
+
+
+Footer :
+
+    - Copyright
+
+
+index.html
+
+    - Header
+    - Bienvenue au restaurant Le Murat
+    - Image du restaurant (paralax)
+    - Petite phrase de présentation
+    - Vidéo
+    - Navigation avec images
+    - Footer
