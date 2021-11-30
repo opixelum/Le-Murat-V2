@@ -3,14 +3,21 @@ body {
     color: grey;
 }
 
-a {
+nav a{
     text-decoration: none;
-}
+    text-transform: uppercase;
+    color: #fff;
+    display: block;
+    padding: 1em 1em;
+    }
 
 a:hover {
     color: rgb(255,0,0)
 }
 
-a:visited {
-    color: grey;
+nav ul{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+
 }
