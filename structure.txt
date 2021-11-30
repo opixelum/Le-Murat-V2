@@ -1,30 +1,30 @@
-Utiliser au maximum des flexboxes
-Centrer les items
+- [ ] Utiliser au maximum des flexboxes
+- [ ] Centrer les items
 
 Header :
 
-    - Logo
-    - Navigation :
+    - [X] Logo
+    - [X] Navigation :
 
-        - Accueil
-        - Carte
-        - Réservation
-        - Nous contacter
+        - [X] Accueil
+        - [X] Carte
+        - [X] Réservation
+        - [X] Nous contacter
 
 
 Footer :
 
-    - Copyright
+    - [ ] Copyright
 
 
 index.html
 
-    - Header
-    - Bienvenue au restaurant Le Murat
-    - Vidéo
-    - Plats du jour
-    - Paragraphe d'accroche
-    - Image du restaurant (paralax)
-    - Plats les plus aimés par les clients (description du plat sur image)
-    - Slides équipe de cuisine
-    - Footer
+    - [ ] Header
+    - [X] Bienvenue au restaurant Le Murat
+    - [X] Vidéo
+    - [X] Plats du jour
+    - [ ] Image du restaurant (paralax)
+    - [X] Plats les plus aimés par les clients (description du plat sur image)
+    - [ ] Slides équipe de cuisine
+    - [X] Paragraphe d'accroche
+    - [ ] Footer
