@@ -4,6 +4,10 @@ body {
     margin:0px;
 }
 
+header img {
+    padding: 0px 20px;
+}
+
 nav a{
     text-decoration: none;
     text-transform: uppercase;
