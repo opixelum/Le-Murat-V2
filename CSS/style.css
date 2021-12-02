@@ -1,17 +1,23 @@
 @font-face {
-    font-family : "perma";
-    src : url('/font/permanent/PermanentMarker-Regular.woff2');
+    font-family : 'perma';
+    src : url('../font/permanent/PermanentMarker-Regular.woff2'),
+    url('../font/permanent/PermanentMarker-Regular.woff');
     font-weight : normal;
     font-style : normal;
+    font-display : swap;
 }
 
+html{
+    font-size: 18px;
+    font-family: 'perma';
+}
 
 body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin: 0px;
-    font-family: perma;
+    
 }
 
 header {
