@@ -1,3 +1,11 @@
+@font-face {
+    font-family : "EB Garamond";
+    src : url('/font/police/EBGaramond-Regular.woff2');
+    font-weight : normal;
+    font-style : normal;
+}
+
+
 body {
     display: flex;
     justify-content: center;
