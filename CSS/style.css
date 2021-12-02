@@ -1,6 +1,6 @@
 @font-face {
-    font-family : "EB-Garamond";
-    src : url('/font/EB Garamond/EBGaramond-Regular.woff2');
+    font-family : 'noto';
+    src : url('/font/noto/NotoSerifJP-Medium-Alphabetic.woff2');
     font-weight : normal;
     font-style : normal;
 }
@@ -11,7 +11,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     margin: 0px;
-    font-family: EB-Garamond;
+    font-family: noto;
 }
 
 header {
