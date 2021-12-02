@@ -1,7 +1,7 @@
 @font-face {
-    font-family : 'perma';
-    src : url('../font/permanent/PermanentMarker-Regular.woff2'),
-    url('../font/permanent/PermanentMarker-Regular.woff');
+    font-family : 'Numans';
+    src : url('../font/numans/Numans-Regular.woff2'),
+    url('../font/numans/Numans-Regular.woff');
     font-weight : normal;
     font-style : normal;
     font-display : swap;
@@ -9,7 +9,7 @@
 
 html{
     font-size: 18px;
-    font-family: 'perma';
+    font-family: 'Numans';
 }
 
 body {
