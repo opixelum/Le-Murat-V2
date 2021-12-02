@@ -1,7 +1,26 @@
 body {
-    background-color: grey;
-    color: grey;
-    margin:0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 75%;
+    height: 25%;
+    background-color: white;
+    top: 0;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.5);
+    position: fixed;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header img {
@@ -27,37 +46,17 @@ nav ul {
     display: flex;
 }
 
-header {
-    width: 75%;
-    height: 30%;
-    background-color: rgb(255,255,255);
-    top: 0;
-    z-index: 10;
-    box-shadow: 0px 10px 10px rgba(0,0,0,0.5);
-    position: fixed;
-}
-
-.banner {
+nav {
     display: flex;
     justify-content: center;
-}
-
-.Logos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.menu ul {
-    display: flex;
-    justify-content: center;
+    width: 100%;
 }
 
 .bienvenue {
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0px 10px 15px 5px rgba(0,0,0, 0.5);
+    box-shadow: 0px 0px 20px 0px;
     width: 95%;
 }
 
@@ -70,14 +69,10 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: rgb(255,255,255);
+    background-color: #F6F6F6;
     width: 75%;
-    padding-top: 250px;
-}
-
-.main {
-    display: flex;
-    justify-content: center;
+    padding-top: 275px;
+    box-shadow: 0px 0px 20px 0px;
 }
 
 .animation {
@@ -89,12 +84,10 @@ main {
 }
 
 footer {
-    width: 75%;
-    height: 24%;
-    background-color: rgb(0,255,255);
-}
-
-.footer {
     display: flex;
     justify-content: center;
+    width: 75%;
+    height: 24%;
+    box-shadow: 0px 0px 20px 0px;
 }
+
