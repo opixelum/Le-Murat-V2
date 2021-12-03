@@ -68,6 +68,40 @@ nav {
     width: 100%;
 }
 
+
+/***** C O R P S   D E   P A G E *****/
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #F6F6F6;
+    width: 75%;
+    padding-top: 275px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+}
+
+
+main div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    width: 95%;
+    margin-bottom: 2%;
+}
+
+
+/* Bienvenue */
+
+.bienvenue video {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Plats du jour */
+
 .plat_du_jour {
     display: flex;
     flex-direction: row;
@@ -80,33 +114,19 @@ nav {
     text-align: center;
 }
 
-main div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
-    width: 95%;
-    margin-bottom: 2%;
+
+/* Plats favoris */
+
+.plats_favoris {
+    padding-bottom: 4.5%;
 }
 
-.bienvenue video {
-    width: 100%;
-    height: 100%;
+.plats_favoris td {
+    position: relative;
 }
 
-main {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: #F6F6F6;
-    width: 75%;
-    padding-top: 275px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
-}
-
-.grid {
-    display: flex;
-    
+.plats_favoris img {
+    display: block;
 }
 
 .overlay {
@@ -122,12 +142,11 @@ main {
   background-color: white;
 }
 
-.container:hover .overlay {
-  opacity: 0.5;
+.plats_favoris td:hover .overlay {
+  opacity: .8;
 }
 
-.overlay p {
-  color: black;
+.plats_favoris td p {
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -136,13 +155,26 @@ main {
   text-align: center;
 }
 
+
+/* Équipe */
+
+.equipe p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+@keyframes animate {
+    from {right: -300px; opacity: 0} to {right: 0; opacity: 1}
+}
+
 .animation {
     position: relative;
     animation: animate 0.4s
 }
-@keyframes animate {
-    from {right: -300px; opacity: 0} to {right: 0; opacity: 1}
-}
+
+
+/***** P I E D  D E  P A G E *****/
 
 footer {
     display: flex;
