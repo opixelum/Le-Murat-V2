@@ -126,6 +126,7 @@ main div{
 
 .plats-favoris img {
     display: block;
+    width: 100%;
 }
 
 .overlay {
