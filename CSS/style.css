@@ -1,15 +1,14 @@
 @font-face {
-    font-family : 'Numans';
-    src : url('../font/numans/Numans-Regular.woff2'),
-    url('../font/numans/Numans-Regular.woff');
+    font-family : "Numans";
+    src : url("../font/numans/Numans-Regular.woff2"),
+    url("../font/numans/Numans-Regular.woff");
     font-weight : normal;
     font-style : normal;
-    font-display : swap;
 }
 
-html{
+html {
     font-size: 18px;
-    font-family: 'Numans';
+    font-family: "Numans";
 }
 
 body {
@@ -43,7 +42,7 @@ header img {
     padding: 0px 20px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     text-transform: uppercase;
     color: grey;
@@ -102,13 +101,13 @@ main div{
 
 /* Plats du jour */
 
-.plat_du_jour {
+.plat-du-jour {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
 
-.plat_du_jour p {
+.plat-du-jour p {
     margin-left: 25%; 
     padding-right: 25%;
     text-align: center;
@@ -117,15 +116,15 @@ main div{
 
 /* Plats favoris */
 
-.plats_favoris {
+.plats-favoris {
     padding-bottom: 4.5%;
 }
 
-.plats_favoris td {
+.plats-favoris td {
     position: relative;
 }
 
-.plats_favoris img {
+.plats-favoris img {
     display: block;
 }
 
@@ -142,11 +141,11 @@ main div{
   background-color: white;
 }
 
-.plats_favoris td:hover .overlay {
+.plats-favoris td:hover .overlay {
   opacity: .8;
 }
 
-.plats_favoris td p {
+.plats-favoris td p {
   font-size: 20px;
   position: absolute;
   top: 50%;
