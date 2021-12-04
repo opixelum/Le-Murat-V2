@@ -22,8 +22,6 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 75%;
-    height: 35%;
     background-color: white;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
     position: fixed;
@@ -63,7 +61,6 @@ nav ul {
 nav {
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 
 
@@ -106,12 +103,13 @@ main div{
     justify-content: flex-start;
 }
 
-.plat-du-jour p {
-    margin-left: 25%; 
-    padding-right: 25%;
-    text-align: center;
+.plat-du-jour img {
+    height: 100%;
 }
 
+.plat-du-jour p {
+    text-align: center;
+}
 
 /* Plats favoris */
 
