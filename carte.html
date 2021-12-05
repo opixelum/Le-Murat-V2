@@ -200,6 +200,7 @@
       </div>
 
       <script>
+        // JS for tablinks
         function openPage(pageName,elmnt,color) {
         var i, tabcontent, tablinks;
   
@@ -215,13 +216,28 @@
           
         document.getElementById(pageName).style.display = "block";
         elmnt.style.backgroundColor = color;
-}
+        }
 
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+
+        // JS for accordions
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            } 
+          });
+        }
+        </script>
     </main>
-
     <!-- Footer -->
     <footer>
       <p><b>Nous contacter</b><br>1 boulevard Murat - 75016 PARIS<br>Tel : +33 1 46 51 33 17<br>Fax : +33 1 46 51 88 54
