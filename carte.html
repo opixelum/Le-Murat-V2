@@ -35,8 +35,12 @@
 
     <!-- Main -->
     <main>
+      <button class="tablink" onclick="openPage('breakfast', this, 'goldenrod')">Petit déjeuner</button>
+      <button class="tablink" onclick="openPage('menu', this, 'goldenrod')" id="defaultOpen">Carte</button>
+      <button class="tablink" onclick="openPage('drinks', this, 'goldenrod')">Boissons</button>
+      
       <!-- Breakfast -->
-      <div class="breakfast">
+      <div id="breakfast" class="tabcontent">
         <h1>PETIT DEJEUNER</h1>
         <!-- Classic -->
         <h2>Le classique 20€</h2>
@@ -162,8 +166,8 @@
         <p>Beurre et confiture</p>
       </div>
 
-      <!-- Launch -->
-      <div class="Launch">
+      <!-- Menu -->
+      <div id="menu" class="tabcontent">
         <h1>DEJEUNER</h1>
         <!-- Appetizer -->
         <h2>Entrées</h2>
@@ -180,9 +184,31 @@
       </div>
 
       <!-- Drinks -->
-      <div class="drinks">
+      <div id="drinks" class="tabcontent">
         <h1>Boissons</h1>
       </div>
+
+      <script>
+        function openPage(pageName,elmnt,color) {
+        var i, tabcontent, tablinks;
+  
+        tabcontent = document.getElementsByClassName("tabcontent");
+  
+        for (i = 0; i < tabcontent.length; i++)
+            tabcontent[i].style.display = "none";
+            
+        tablinks = document.getElementsByClassName("tablink");
+          
+        for (i = 0; i < tablinks.length; i++)
+             tablinks[i].style.backgroundColor = "";
+          
+        document.getElementById(pageName).style.display = "block";
+        elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
     </main>
 
     <!-- Footer -->

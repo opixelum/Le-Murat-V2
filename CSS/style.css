@@ -161,6 +161,22 @@ main div {
 }
 
 
+/* Carte */
+
+.tablink {
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 18px;
+  width: 33.33%;
+}
+
+.tablink:hover {
+  background-color: rgba(204, 153, 50, 0.5);
+}
+
 /* Équipe */
 
 .equipe p {
