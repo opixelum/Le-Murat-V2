@@ -13,68 +13,52 @@ html {
 body {
     display: flex;
     justify-content: center;
+    flex-direction: row;
     flex-wrap: wrap;
-    margin: 0px;
+    margin: 0;
 }
 
-header {
+
+/***** B A N N I È R E *****/
+
+header  {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     width: 75%;
-    background-color: white;
-    z-index: 667;
-}
-
-header .banner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
-.logos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 15%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
 }
 
 header img {
-    padding: 0px 20px;
+    width: 200px;
+    padding: 0.1% 1%;
+}
+
+nav {
+    width: 75%;
+    background-color: goldenrod;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
 }
 
 nav a {
     text-decoration: none;
     text-transform: uppercase;
-    color: grey;
-    display: block;
+    color: #fff;
     padding: 1em 1em;
-    margin: 0em 2em;
 }
 
-a:hover {
-    color: rgb(204, 153, 50);
+nav a:hover{
+    color: black;
 }
 
 nav ul {
     list-style: none;
-    padding-left: 0;
     display: flex;
-    width: 20%;
-    top: 0;
+    justify-content: space-around;
+    padding-inline-start: 0px;
 }
-
-nav {
-    display: flex;
-    justify-content: flex-start;
-    background-color: goldenrod;
-    top: 0;
-    position: sticky;
-    z-index: 667;
-    padding: 0% 14.3%;
-}
-
 
 /***** C O R P S   D E   P A G E *****/
 
