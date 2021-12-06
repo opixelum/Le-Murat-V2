@@ -280,7 +280,7 @@ footer {
     {
         color: tomato;
     }
- 
+
  
     #menuToggle input
     {
@@ -303,7 +303,7 @@ footer {
     #menuToggle span
     {
         display: block;
-        width: 33px;
+        width: 25px;
         height: 4px;
         margin-bottom: 5px;
         position: relative;
@@ -384,7 +384,9 @@ footer {
     .plat-du-jour {
         display: flex;
         flex-direction: column;
+        size: 10%;
     }
+
 
     main{
         margin-left: 10%;
