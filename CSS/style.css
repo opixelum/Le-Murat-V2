@@ -409,4 +409,8 @@ footer {
     h1{
         display: none;
     }
+    footer{
+        margin-left: 10%;
+
+    }
 }
