@@ -265,19 +265,30 @@ main div {
 
 #reservation h1 {
     letter-spacing: 0.3em;
+    margin-block-start: 0;
 }
 
 label {
     font-style: bold;
 }
 
-input[type="submit"] {
-    width: 10%;
-    height: 10%;
-    font-size: 1.5em;
-    margin-bottom: 8%;
+textarea {
+    resize: none;
+    width: 350px;
+    height: 150px;
 }
 
+input[type="submit"] {
+    width: 150px;
+    height: 50px;
+    font-size: 1.5em;
+    margin-bottom: 8%;
+    background-color: goldenrod;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(204, 153, 50, 1);
+}
 
 
 /***** P I E D  D E  P A G E *****/
