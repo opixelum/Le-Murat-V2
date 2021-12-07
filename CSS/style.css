@@ -254,6 +254,13 @@ main div {
     margin-right: 10%;
 }
 
+.panel h2 {
+    font-size: 14px;
+}
+
+.panel p {
+    font-size: 10px;
+}
 
 /* Reservation */
 
