@@ -282,6 +282,7 @@ footer {
         
         -webkit-user-select: none;
         user-select: none;
+        size: 10px;
     }  
  
     #menuToggle a
@@ -367,7 +368,7 @@ footer {
     #menu
     {
         position: absolute;
-        width: 300px;
+        width: 150px;
         margin: -100px 0 0 -50px;
         padding: 50px;
         padding-top: 125px;
@@ -405,14 +406,14 @@ footer {
 
 
     main{
-        margin-left: 10%;
+        margin-left: 15%;
     }
 
     h1{
         display: none;
     }
     footer{
-        margin-left: 10%;
+        margin-left: 15%;
 
     }
     .vache{
@@ -420,11 +421,15 @@ footer {
     }
     /* banner */
     .Logo-murat{
-        padding-left: 70px;
+        margin-left: 100px;
     }
-    .overlay{
-        size: 10px;
-    
+    .plats-favoris td p {
+        font-size: 8px;
+     
+    }
+    h2{
+        text-align: center;
+
     }
 
 }
