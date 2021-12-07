@@ -48,25 +48,25 @@
     </nav>
 
     <main id="reservation">
-      <h1 >Réserver une table</h1>
+      <h1>Réserver une table</h1>
 
       <form>
-        <label for="lname">Nom</label><br>
+        <label for="lname"><b>Nom</b></label><br>
         <input type="text" id="lname" name="lname" placeholder="Dupont" required><br><br>
         
-        <label for="fname">Prénom</label><br>
+        <label for="fname"><b>Prénom</b></label><br>
         <input type="text" id="fname" name="fname" placeholder="Jean" required><br><br>
 
-        <label for="phone">Numéro de téléphone</label><br>
+        <label for="phone"><b>Numéro de téléphone</b></label><br>
         <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="06 12 34 54 67" required><br><br>
 
-        <label for="datetime">Date</label><br>
+        <label for="datetime"><b>Date</b></label><br>
         <input type="datetime-local" id="datetime" name="datetime" required><br><br>
 
-        <label for="people">Nombre de personnes</label><br>
+        <label for="people"><b>Nombre de personnes</b></label><br>
         <input type="number" id="people" name="people" min="1" max="20" required><br><br>
 
-        <label>Salle</label><br>
+        <label><b>Salle</b></label><br>
         <input type="radio" id="inside" name="place" value="inside">
         <label for="place">Intérieur</label><br>
         <input type="radio" id="outside" name="place" value="terrace">
@@ -74,7 +74,7 @@
         <input type="radio" id="balcony" name="place" value="balcony">
         <label for="place">Balcon</label><br><br>
 
-        <label for="note">Notes de réservation (facultatif)</label><br>
+        <label for="note"><b>Notes de réservation (facultatif)</b></label><br>
         <textarea id="note" name="note" placeholder="Consignes concernant votre réservation (exemple : Décoration de table, intolérances ou allergies, etc...)."></textarea><br><br>
 
         <input type="submit" value="Réserver">
