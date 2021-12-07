@@ -50,10 +50,12 @@
 
     <!-- Main -->
     <main>
-      <button class="tablink" onclick="openPage('breakfast', this, 'goldenrod')">Petit déjeuner</button>
-      <button class="tablink" onclick="openPage('meals', this, 'goldenrod')" id="defaultOpen">Carte</button>
-      <button class="tablink" onclick="openPage('drinks', this, 'goldenrod')">Boissons</button>
-      <button class="tablink" onclick="openPage('allergens', this, 'goldenrod')">Allergènes</button>
+      <div class="menunav">
+        <button class="tablink" onclick="openPage('breakfast', this, 'goldenrod')">Petit déjeuner</button>
+        <button class="tablink" onclick="openPage('meals', this, 'goldenrod')" id="defaultOpen">Carte</button>
+        <button class="tablink" onclick="openPage('drinks', this, 'goldenrod')">Boissons</button>
+        <button class="tablink" onclick="openPage('allergens', this, 'goldenrod')">Allergènes</button>
+      </div>
       
       <!-- Breakfast -->
       <div id="breakfast" class="tabcontent">

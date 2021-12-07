@@ -176,20 +176,26 @@ main div {
 
 /* Carte */
 
+.menunav {
+    flex-direction: row;
+}
+
 .tablink {
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 18px;
-  width: 25%;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 18px;
+    width: 25%;
 }
 
 .tablink:hover {
-  background-color: rgba(204, 153, 50, 0.5);
+    background-color: rgba(204, 153, 50, 0.5);
 }
 
+.tabcontent {
+}
 
 .accordion {
     background-color: #eee;
@@ -226,6 +232,7 @@ main div {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    margin-bottom: 0px;
 }
 
 /***** P I E D  D E  P A G E *****/
