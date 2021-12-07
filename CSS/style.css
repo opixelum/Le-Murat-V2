@@ -43,6 +43,7 @@ nav {
 nav a {
     text-decoration: none;
     text-transform: uppercase;
+    letter-spacing: 0.2em;
     color: #fff;
     padding: 1em 1em;
 }
@@ -110,6 +111,10 @@ main div {
     margin-right: 10%;
 }
 
+.plat-du-jour p b {
+    letter-spacing: 0.2em;
+}
+
 /* Plats favoris */
 
 .plats-favoris td {
@@ -148,23 +153,6 @@ main div {
 }
 
 
-/* Carte */
-
-.tablink {
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 18px;
-  width: 25%;
-}
-
-.tablink:hover {
-  background-color: rgba(204, 153, 50, 0.5);
-}
-
-
 /* Équipe */
 
 .equipe p {
@@ -184,6 +172,24 @@ main div {
     position: relative;
     animation: animate 0.4s
 }
+
+
+/* Carte */
+
+.tablink {
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 18px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: rgba(204, 153, 50, 0.5);
+}
+
 
 .accordion {
     background-color: #eee;
@@ -235,7 +241,7 @@ footer {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
 }
 
-/* ---- MENU HAMBURGER ---- */
+/* ---- M O B I L E ---- */
 
 #hamburger{
     display: none;
