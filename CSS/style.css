@@ -6,16 +6,14 @@
     font-style : normal;
 }
 
-html {
-    font-family: "Numans";
-}
-
 body {
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 0;
+    font-family: "Numans";
+    text-align: center;
 }
 
 
@@ -95,17 +93,21 @@ main div {
 /* Plats du jour */
 
 .plat-du-jour {
-    display: flex;
     flex-direction: row;
 }
 
 .plat-du-jour img {
-    height: 100%;
+    width: 40%;
 }
 
 .plat-du-jour p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
-    padding-left: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 /* Plats favoris */
