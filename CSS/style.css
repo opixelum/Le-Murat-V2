@@ -419,8 +419,12 @@ footer {
         display: none;
     }
     /* banner */
-.Logo-murat{
-    padding-left: 70px;
-}
+    .Logo-murat{
+        padding-left: 70px;
+    }
+    .overlay{
+        size: 10px;
+    
+    }
 
 }
