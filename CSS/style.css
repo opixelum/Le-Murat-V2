@@ -144,12 +144,13 @@ main div {
 }
 
 .plats-favoris td p {
-    font-size: 20px;
+    font-size: 19px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    margin-block-start: 0;
 }
 
 
@@ -304,7 +305,8 @@ footer {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
 }
 
-/* ---- M O B I L E ---- */
+
+/* ---- MENU HAMBURGER ---- */
 
 #hamburger{
     display: none;
@@ -313,6 +315,13 @@ footer {
 .titre-mobile{
     display: none;
 }
+
+
+@media screen and (max-width: 835px) {
+    .plats-favoris td p {
+        font-size: 14px;
+}
+
 
 @media screen and (max-width:575px) {
 
@@ -343,6 +352,7 @@ footer {
         
         -webkit-user-select: none;
         user-select: none;
+        size: 10px;
     }  
  
     #menuToggle a
@@ -357,7 +367,7 @@ footer {
     {
         color: tomato;
     }
-
+ 
  
     #menuToggle input
     {
@@ -428,7 +438,7 @@ footer {
     #menu
     {
         position: absolute;
-        width: 300px;
+        width: 150px;
         margin: -100px 0 0 -50px;
         padding: 50px;
         padding-top: 125px;
@@ -456,6 +466,7 @@ footer {
 
     .plat-du-jour img {
         height: 30%;
+        width: 30%;
     }
 
     .plat-du-jour {
@@ -466,14 +477,30 @@ footer {
 
 
     main{
-        margin-left: 10%;
+        margin-left: 15%;
     }
 
     h1{
         display: none;
     }
     footer{
-        margin-left: 10%;
+        margin-left: 15%;
 
     }
+    .vache{
+        display: none;
+    }
+    /* banner */
+    .Logo-murat{
+        margin-left: 100px;
+    }
+    .plats-favoris td p {
+        font-size: 9px;
+     
+    }
+    h2{
+        text-align: center;
+
+    }
+
 }
