@@ -227,13 +227,35 @@ main div {
 }
 
 .panel {
-    padding: 0 18px;
     background-color: white;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     margin-bottom: 0px;
+    width: 100%;
 }
+
+.panel video {
+    width: 100%;
+}
+
+.panel img {
+    width: 50%;
+}
+
+.other-chief {
+    flex-direction: row;
+    box-shadow: 0px 0px 0;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 0px;
+}
+
+.other-chief p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 
 /***** P I E D  D E  P A G E *****/
 
