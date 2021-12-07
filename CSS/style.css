@@ -257,6 +257,21 @@ main div {
 }
 
 
+/* Reservation */
+
+#reservation {
+    flex-direction: column;
+}
+
+input[type="submit"] {
+    width: 10%;
+    height: 10%;
+    font-size: 1.5em;
+    margin-bottom: 8%;
+}
+
+
+
 /***** P I E D  D E  P A G E *****/
 
 footer {
