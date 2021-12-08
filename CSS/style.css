@@ -173,6 +173,18 @@ main div {
 
 /* Carte */
 
+.other-chief {
+    box-shadow: 0px 0px 0;
+}
+
+#pizza video {
+    width: 100%;
+}
+
+#pizza img {
+    width: 50%;
+}
+
 .menunav {
     flex-direction: row;
 }
@@ -200,6 +212,14 @@ main div {
 .tabcontent {
     width: 95%;
     padding-inline-start: 0;
+}
+
+.tabcontent h2 {
+    font-size: 14px;
+}
+
+.tabcontent p {
+    font-size: 10px;
 }
 
 .tabcontent li {
