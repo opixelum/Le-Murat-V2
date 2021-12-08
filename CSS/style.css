@@ -103,12 +103,10 @@ main div {
 
 .plat-du-jour p {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 100%;
 }
 
 .plat-du-jour p b {
