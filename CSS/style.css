@@ -14,6 +14,7 @@ body {
     margin: 0;
     font-family: "Numans";
     text-align: center;
+    overflow: scroll;
 }
 
 
@@ -109,9 +110,6 @@ main div {
     width: 100%;
 }
 
-.plat-du-jour p b {
-    letter-spacing: 0.2em;
-}
 
 /* Plats favoris */
 
