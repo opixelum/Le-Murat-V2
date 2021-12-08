@@ -512,4 +512,8 @@ footer {
 
     }
 
+    header {
+        box-shadow: none;
+    }
+
 }
