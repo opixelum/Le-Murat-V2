@@ -497,7 +497,7 @@ footer {
     }
     /* banner */
     .Logo-murat{
-        margin-left: 180px;
+        margin-left: 120px;
     }
     .plats-favoris td p {
         font-size: 9px;
@@ -517,7 +517,7 @@ footer {
     }
 
     .menunav button{
-        font-size: 12px;
+        font-size: 10px;
     }
 
 }
