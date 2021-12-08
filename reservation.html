@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <meta name="description" content="Page d'accueil du Murat.">
-    <link rel="icon" type="image/png" sizes="16x16" href="Images/Murat.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="Pictures/Logos/murat.svg">
     <link rel="stylesheet" type="text/css" href="CSS/style.css">
     <title>Murat | Réservation</title>
   </head>
@@ -12,12 +12,8 @@
   <body>
     <!-- Bannière -->
     <header>
-    <div class="banner">
-      <div class="logos">
-        <img src="Pictures/Logos/Vache3.svg" alt="Logo vache">
-        <img src="Pictures/Logos/Murat.svg" alt="Logo Murat">
-      </div>
-      </div>
+      <img class="vache" src="Pictures/Logos/vache.svg" alt="Logo vache">
+      <img class="Logo-murat" src="Pictures/Logos/murat.svg" alt="Logo Murat">
     </header>
     
       <div id="hamburger">
@@ -52,40 +48,42 @@
     </nav>
 
     <main>
-      <h1 >Réserver une table</h1>
+      <div class="reservation">
+        <h1>Réserver une table</h1>
 
-      <form>
-        <label for="lname">Nom</label><br>
-        <input type="text" id="lname" name="lname" placeholder="Dupont" required><br><br>
-        
-        <label for="fname">Prénom</label><br>
-        <input type="text" id="fname" name="fname" placeholder="Jean" required><br><br>
+        <form>
+          <label for="lname"><b>Nom</b></label><br>
+          <input type="text" id="lname" name="lname" placeholder="Dupont" required><br><br>
+          
+          <label for="fname"><b>Prénom</b></label><br>
+          <input type="text" id="fname" name="fname" placeholder="Jean" required><br><br>
 
-        <label for="phone">Numéro de téléphone</label><br>
-        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="06 12 34 54 67" required><br><br>
+          <label for="phone"><b>Numéro de téléphone</b></label><br>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="06 12 34 54 67" required><br><br>
 
-        <label for="datetime">Date</label><br>
-        <input type="datetime-local" id="datetime" name="datetime" required><br><br>
+          <label for="datetime"><b>Date</b></label><br>
+          <input type="datetime-local" id="datetime" name="datetime" required><br><br>
 
-        <label for="people">Nombre de personnes</label><br>
-        <input type="number" id="people" name="people" min="1" max="20" required><br><br>
+          <label for="people"><b>Nombre de personnes</b></label><br>
+          <input type="number" id="people" name="people" min="1" max="20" required><br><br>
 
-        <label>Salle</label><br>
-        <input type="radio" id="inside" name="place" value="inside">
-        <label for="place">Intérieur</label><br>
-        <input type="radio" id="outside" name="place" value="terrace">
-        <label for="place">Terrasse</label><br>
-        <input type="radio" id="balcony" name="place" value="balcony">
-        <label for="place">Balcon</label><br><br>
+          <label><b>Salle</b></label><br>
+          <input type="radio" id="inside" name="place" value="inside">
+          <label for="place">Intérieur</label><br>
+          <input type="radio" id="outside" name="place" value="terrace">
+          <label for="place">Terrasse</label><br>
+          <input type="radio" id="balcony" name="place" value="balcony">
+          <label for="place">Balcon</label><br><br>
 
-        <label for="note">Notes de réservation (facultatif)</label><br>
-        <textarea id="note" name="note" placeholder="Consignes concernant votre réservation (exemple : Décoration de table, intolérances ou allergies, etc...)."></textarea><br><br>
+          <label for="note"><b>Notes de réservation (facultatif)</b></label><br>
+          <textarea id="note" name="note" placeholder="Consignes concernant votre réservation (exemple : Décoration de table, intolérances ou allergies, etc...)."></textarea><br><br>
 
-        <input type="submit" value="Réserver">
-      </form>
+          <input type="submit" value="Réserver">
+        </form>
 
-      <p><em>Pour toute réservation spéciale (+ de 20 personnes ou autre raison), veuillez nous contacter par téléphone ou par courriel
-      (voir coordonnées ci-dessous).</em></p>
+        <p><em>Pour toute réservation spéciale (+ de 20 personnes ou autre raison), veuillez nous contacter par téléphone ou par courriel
+        (voir coordonnées ci-dessous).</em></p>
+      </div>
     </main>
       
     <!-- Pied de page -->

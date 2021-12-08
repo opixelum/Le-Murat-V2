@@ -6,16 +6,15 @@
     font-style : normal;
 }
 
-html {
-    font-family: "Numans";
-}
-
 body {
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 0;
+    font-family: "Numans";
+    text-align: center;
+    overflow: scroll;
 }
 
 
@@ -45,6 +44,7 @@ nav {
 nav a {
     text-decoration: none;
     text-transform: uppercase;
+    letter-spacing: 0.2em;
     color: #fff;
     padding: 1em 1em;
 }
@@ -59,6 +59,7 @@ nav ul {
     justify-content: space-around;
     padding-inline-start: 0px;
 }
+
 
 /***** C O R P S   D E   P A G E *****/
 
@@ -79,6 +80,7 @@ main div {
     align-items: center;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
     width: 95%;
+    margin-bottom: 2%;
 }
 
 
@@ -93,18 +95,21 @@ main div {
 /* Plats du jour */
 
 .plat-du-jour {
-    display: flex;
     flex-direction: row;
 }
 
 .plat-du-jour img {
-    height: 100%;
+    width: 40%;
 }
 
 .plat-du-jour p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    padding-left: 10%;
+    width: 100%;
 }
+
 
 /* Plats favoris */
 
@@ -118,47 +123,32 @@ main div {
 }
 
 .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
 }
 
 .plats-favoris td:hover .overlay {
-  opacity: .8;
+    opacity: .8;
 }
 
 .plats-favoris td p {
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+    font-size: 19px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-block-start: 0;
 }
 
-
-/* Carte */
-
-.tablink {
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 18px;
-  width: 33.33%;
-}
-
-.tablink:hover {
-  background-color: rgba(204, 153, 50, 0.5);
-}
 
 /* Équipe */
 
@@ -167,6 +157,9 @@ main div {
     margin-right: 10%;
 }
 
+.slideshow {
+    box-shadow: 0px 0px 0;
+}
 
 @keyframes animate {
     from {right: -300px; opacity: 0} to {right: 0; opacity: 1}
@@ -177,42 +170,149 @@ main div {
     animation: animate 0.4s
 }
 
-.accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
+
+/* Carte */
+
+.menunav {
+    flex-direction: row;
+}
+
+.tablink {
+    float: left;
     border: none;
-    text-align: left;
     outline: none;
-    font-size: 15px;
-    transition: 0.4s;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 18px;
+    width: 25%;
 }
 
-.active, .accordion:hover {
-    background-color: #ccc;
+.tablink:hover {
+    background-color: rgba(204, 153, 50, 0.5);
 }
 
-.accordion:after {
-    content: '\002B';
-    color: #777;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
+/* Hidden fallback */
+[hidden] {
+    display: none;
+    visibility: hidden;
 }
 
-.active:after {
-    content: "\2212";
+.tabcontent {
+    width: 95%;
+    padding-inline-start: 0;
 }
 
-.panel {
-    padding: 0 18px;
-    background-color: white;
+.tabcontent li {
+    list-style: none;
+}
+
+.tabcontent label {
+    display: block;
+    padding: .85rem;
+    background: #eee;
+    transition: all .25s ease-in;
+    cursor: pointer;
+}
+
+/* First level accordion */
+.group-list label {
+    background: #ddd;
+}
+
+/* Second level accordion */
+.sub-group-list label {
+    background: #ccc;
+}
+
+/* Third level accordion */
+.sub-sub-group-list label {
+    background: #bbb;
+}
+
+/* Fourth level accordion */
+.sub-sub-sub-group-list label {
+    background: #aaa;
+}
+
+/* Fifth level accordion */
+.sub-sub-sub-sub-group-list label {
+    background: #999999;
+}
+
+/* Sixth level accordion */
+.sub-sub-sub-sub-sub-group-list label {
+    background: #888888;
+}
+
+/* Hide nested lists*/
+.group-list,
+.sub-group-list,
+.sub-sub-group-list,
+.sub-sub-sub-group-list,
+.sub-sub-sub-sub-group-list,
+.sub-sub-sub-sub-sub-group-list {
+    height: 100%;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.2s ease-out;
+    transition: max-height .5s ease-in-out;
+    padding-inline-start: 0;
 }
+
+/* Reset the height when checkbox is checked */
+.tabcontent input[type=checkbox]:checked + label + ul {
+    max-height: 3000px;
+    padding-inline-start: 0;
+}
+
+/* Set chevron */
+.fa-angle-right:before {
+    content: "\203a";
+}
+
+label > span {
+    float: right;
+    transition: transform .25s ease;
+}
+
+/* Rotate chevron */
+.tabcontent input[type=checkbox]:checked + label > span {
+    transform: rotate(90deg);
+}
+
+
+/* Reservation */
+
+.reservation {
+    flex-direction: column;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+}
+
+.reservation h1 {
+    letter-spacing: 0.3em;
+}
+
+label {
+    font-style: bold;
+}
+
+textarea {
+    resize: none;
+    width: 350px;
+    height: 150px;
+}
+
+input[type="submit"] {
+    width: 150px;
+    height: 50px;
+    font-size: 1.5em;
+    margin-bottom: 8%;
+    background-color: goldenrod;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(204, 153, 50, 1);
+}
+
 
 /***** P I E D  D E  P A G E *****/
 
@@ -224,8 +324,9 @@ footer {
     flex-direction: column;
     width: 75%;
     height: 24%;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 30px 20px rgba(0, 0, 0, 0.25);
 }
+
 
 /* ---- MENU HAMBURGER ---- */
 
@@ -236,6 +337,14 @@ footer {
 .titre-mobile{
     display: none;
 }
+
+
+@media screen and (max-width: 835px) {
+    .plats-favoris td p {
+        font-size: 14px;
+    }
+}
+
 
 @media screen and (max-width:575px) {
 
@@ -266,6 +375,7 @@ footer {
         
         -webkit-user-select: none;
         user-select: none;
+        size: 10px;
     }  
  
     #menuToggle a
@@ -280,7 +390,7 @@ footer {
     {
         color: tomato;
     }
-
+ 
  
     #menuToggle input
     {
@@ -351,7 +461,7 @@ footer {
     #menu
     {
         position: absolute;
-        width: 300px;
+        width: 150px;
         margin: -100px 0 0 -50px;
         padding: 50px;
         padding-top: 125px;
@@ -379,6 +489,7 @@ footer {
 
     .plat-du-jour img {
         height: 30%;
+        width: 30%;
     }
 
     .plat-du-jour {
@@ -389,14 +500,47 @@ footer {
 
 
     main{
-        margin-left: 10%;
+        margin-left: 15%;
     }
 
     h1{
         display: none;
     }
     footer{
-        margin-left: 10%;
+        margin-left: 15%;
 
     }
+    .vache{
+        display: none;
+    }
+    /* banner */
+    .Logo-murat{
+        margin-left: 120px;
+    }
+    .plats-favoris td p {
+        font-size: 9px;
+     
+    }
+    h2{
+        text-align: center;
+
+    }
+
+    header {
+        box-shadow: none;
+    }
+
+    .other-chief p {
+        font-size: 10px;
+    }
+
+    .menunav button{
+        font-size: 10px;
+    }
+
+    textarea {
+        width: 250px;
+        height: 110px;
+    }
+
 }
