@@ -216,10 +216,12 @@ main div {
 
 .tabcontent h2 {
     font-size: 14px;
+    padding-top: 10px;
 }
 
 .tabcontent p {
     font-size: 10px;
+    padding-top: 10px;
 }
 
 .tabcontent li {
