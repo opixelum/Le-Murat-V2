@@ -173,18 +173,6 @@ main div {
 
 /* Carte */
 
-.other-chief {
-    box-shadow: 0px 0px 0;
-}
-
-#pizza video {
-    width: 100%;
-}
-
-#pizza img {
-    width: 50%;
-}
-
 .menunav {
     flex-direction: row;
 }
@@ -215,12 +203,12 @@ main div {
 }
 
 .tabcontent h2 {
-    font-size: 14px;
+    font-size: 17px;
     padding-top: 10px;
 }
 
 .tabcontent p {
-    font-size: 10px;
+    font-size: 15px;
     padding-top: 10px;
 }
 
@@ -234,6 +222,24 @@ main div {
     background: #eee;
     transition: all .25s ease-in;
     cursor: pointer;
+}
+
+.other-chief {
+    flex-direction: row;
+    box-shadow: none;
+    width: 100%;
+}
+
+.other-chief p {
+    margin: 0 10% 0 10%;
+}
+
+#pizza video {
+    width: 100%;
+}
+
+#pizza img {
+    width: 50%;
 }
 
 /* First level accordion */
@@ -378,7 +384,7 @@ footer {
         display: block;
     }
 
-	#hamburger{
+  	#hamburger{
         display: block;
     }
 
@@ -552,8 +558,22 @@ footer {
         box-shadow: none;
     }
 
+    li label {
+        font-size: 12px;
+    }
+
+    .tabcontent h2 {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+
+    .tabcontent p {
+        font-size: 8px;
+        padding-top: 10px;
+    }
+
     .other-chief p {
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .menunav button{
@@ -563,6 +583,10 @@ footer {
     textarea {
         width: 250px;
         height: 110px;
+    }
+
+    footer {
+        font-size: 12px;
     }
 
 }
