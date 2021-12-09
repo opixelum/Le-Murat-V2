@@ -173,6 +173,18 @@ main div {
 
 /* Carte */
 
+.other-chief {
+    box-shadow: 0px 0px 0;
+}
+
+#pizza video {
+    width: 100%;
+}
+
+#pizza img {
+    width: 50%;
+}
+
 .menunav {
     flex-direction: row;
 }
@@ -191,76 +203,102 @@ main div {
     background-color: rgba(204, 153, 50, 0.5);
 }
 
-.accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
+/* Hidden fallback */
+[hidden] {
+    display: none;
+    visibility: hidden;
 }
 
-.active, .accordion:hover {
-    background-color: #ccc;
+.tabcontent {
+    width: 95%;
+    padding-inline-start: 0;
 }
 
-.accordion:after {
-    content: '\002B';
-    color: #777;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-}
-
-.active:after {
-    content: "\2212";
-}
-
-.panel {
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    margin-bottom: 0px;
-    width: 100%;
-}
-
-.panel video {
-    width: 100%;
-}
-
-.panel img {
-    width: 50%;
-}
-
-.other-chief {
-    flex-direction: row;
-    box-shadow: 0px 0px 0;
-    width: 100%;
-    justify-content: space-around;
-    margin-bottom: 0px;
-}
-
-.other-chief p {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.panel h2 {
+.tabcontent h2 {
     font-size: 14px;
 }
 
-.panel p {
+.tabcontent p {
     font-size: 10px;
 }
 
-.other-chief p {
-    font-size: 18px;
+.tabcontent li {
+    list-style: none;
 }
+
+.tabcontent label {
+    display: block;
+    padding: .85rem;
+    background: #eee;
+    transition: all .25s ease-in;
+    cursor: pointer;
+}
+
+/* First level accordion */
+.group-list label {
+    background: #ddd;
+}
+
+/* Second level accordion */
+.sub-group-list label {
+    background: #ccc;
+}
+
+/* Third level accordion */
+.sub-sub-group-list label {
+    background: #bbb;
+}
+
+/* Fourth level accordion */
+.sub-sub-sub-group-list label {
+    background: #aaa;
+}
+
+/* Fifth level accordion */
+.sub-sub-sub-sub-group-list label {
+    background: #999999;
+}
+
+/* Sixth level accordion */
+.sub-sub-sub-sub-sub-group-list label {
+    background: #888888;
+}
+
+/* Hide nested lists*/
+.group-list,
+.sub-group-list,
+.sub-sub-group-list,
+.sub-sub-sub-group-list,
+.sub-sub-sub-sub-group-list,
+.sub-sub-sub-sub-sub-group-list {
+    height: 100%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .5s ease-in-out;
+    padding-inline-start: 0;
+}
+
+/* Reset the height when checkbox is checked */
+.tabcontent input[type=checkbox]:checked + label + ul {
+    max-height: 3000px;
+    padding-inline-start: 0;
+}
+
+/* Set chevron */
+.fa-angle-right:before {
+    content: "\203a";
+}
+
+label > span {
+    float: right;
+    transition: transform .25s ease;
+}
+
+/* Rotate chevron */
+.tabcontent input[type=checkbox]:checked + label > span {
+    transform: rotate(90deg);
+}
+
 
 /* Reservation */
 

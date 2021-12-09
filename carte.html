@@ -58,1113 +58,1302 @@
       </div>
       
       <!-- Breakfast -->
-      <div id="breakfast" class="tabcontent">
+      <ul id="breakfast" class="tabcontent">
         <!-- Classic -->
-        <button class="accordion">Le classique 20€</button>
-        <div class="panel">
-          <h2>Double expresso</h2>
-          <h2>ou Chocolat chaud maison</h2>
-          <h2>ou Thé "MARIAGE FRERES"</h2>
-          <br><br>
-          <h2>Jus d'orange</h2>
-          <h2>ou Jus de pamplemousse frais</h2>
-          <br><br>
-          <h2>Salade de fruits frais</h2>
-          <br><br>
-          <h2>Panier de mini viennoiseries</h2>
-          <h2>ou Ficelle grilée</h2>
-          <br><br>
-          <p>Beurre et confiture</p>
-        </div>
+        <li>
+          <input id="group-1" type="checkbox" hidden/>
+          <label for="group-1"><span class="fa fa-angle-right"></span>Le classique 20 €</label>
+          <ul class="group-list">
+            <li><h2>Double expresso</h2></li>
+            <li><h2>ou Chocolat chaud maison</h2></li>
+            <li><h2>ou Thé "MARIAGE FRERES"</h2></li>
+            <li><h2>Jus d'orange</h2></li>
+            <li><h2>ou Jus de pamplemousse frais</h2></li>
+            <li><h2>Salade de fruits frais</h2></li>
+            <li><h2>Panier de mini viennoiseries</h2></li>
+            <li><h2>ou Ficelle grilée</h2></li>
+            <li><p>Beurre et confiture</p></li>
+          </ul>
+        </li>
 
-        <!-- Fruits and dairy -->
-        <button class="accordion">Fruits et laitages</button>
-        <div class="panel">
-          <!-- Granola -->
-          <h2>Granolas bios</h2>
-          <p>Yaourt à la grecque et miel 10€</p>
-          <p>Yaourt à la grecque et fruits frais 15€</p>
-          <!-- Cottage cheese -->
-          <h2>Fromage blanc 0% 8€</h2>
-          <p>Nature</p>
-          <p>Miel</p>
-          <!-- Goat cheese -->
-          <h2>Chèvre frais 14€</h2>
-          <p>"Dominique Fabre"</p>
-          <!-- fruits salad -->
-          <h2>Salade de fruits frais 15€</h2>
-        </div>
+        <!-- Fruits & dairy -->
+        <li>
+          <input id="group-2" type="checkbox" hidden/>
+          <label for="group-2"><span class="fa fa-angle-right"></span>Fruits et laitages</label>
+          <ul class="group-list">
+            <!-- Granola -->
+            <li><h2>Granolas bios</h2></li>
+            <li><p>Yaourt à la grecque et miel 10€</p></li>
+            <li><p>Yaourt à la grecque et fruits frais 15€</p></li>
+
+            <!-- Cottage cheese -->
+            <li><h2>Fromage blanc 0% 8€</h2></li>
+            <li><p>Nature</p></li>
+            <li><p>Miel</p></li>
+
+            <!-- Goat cheese -->
+            <li><h2>Chèvre frais 14€</h2></li>
+            <li><p>"Dominique Fabre"</p></li>
+
+            <!-- fruits salad -->
+            <li><h2>Salade de fruits frais 15€</h2></li>
+          </ul>
+        </li>
 
         <!-- Eggs -->
-        <button class="accordion">Oeufs</button>
-        <div class="panel">
-          <!-- Omelet -->
-          <h2>Omelette blanche bio 15€</h2>
-          <br><br>
-          <!-- Fried egg -->
-          <h2>Oeufs bio plat nature 9€</h2>
-          <h2>Oeufs bio plat bacon 12€</h2>
-          <h2>Oeufs bio plat saumon fumé 15€</h2>
-          <br><br>
-          <!-- Scrambled egg -->
-          <h2>Oeufs bio brouilés nature 12€</h2>
-          <h2>Oeufs bio brouilés bacon 14€</h2>
-          <h2>Oeufs bio brouilés saumon fumé 15€</h2>
-          <br><br>
-          <!-- Boiled egg -->
-          <h2>Oeufs bio coque 4€</h2>
-        </div>
+        <li>
+          <input id="group-3" type="checkbox" hidden/>
+          <label for="group-3"><span class="fa fa-angle-right"></span>Oeufs</label>
+          <ul class="group-list">
+            <!-- Omelet -->
+            <li><h2>Omelette blanche bio 15€</h2></li>
+            
+            <!-- Fried egg -->
+            <li><h2>Oeufs bio plat nature 9€</h2></li>
+            <li><h2>Oeufs bio plat bacon 12€</h2></li>
+            <li><h2>Oeufs bio plat saumon fumé 15€</h2></li>
+            
+            <!-- Scrambled egg -->
+            <li><h2>Oeufs bio brouilés nature 12€</h2></li>
+            <li><h2>Oeufs bio brouilés bacon 14€</h2></li>
+            <li><h2>Oeufs bio brouilés saumon fumé 15€</h2></li>
+            
+            <!-- Boiled egg -->
+            <li><h2>Oeufs bio coque 4€</h2></li>
+          </ul>
+        </li>
 
         <!-- Hot drinks -->
-        <button class="accordion">Boissons chaudes</button>
-        <div class="panel">
-          <!-- Coffee -->
-          <h2>Café expresso 3.9€</h2>
-          <h2>Double expresso 7.5€</h2>
-          <p>Café crème</p>
-          <p>Cappuccino</p>
-          <br><br>
-          <!-- Tea -->
-          <h2>Thés "MARIAGE FRERES" 8€</h2>
-          <p>Earl grey</p>
-          <p>Ceylan</p>
-          <p>Darjeeling</p>
-          <p>Marco polo</p>
-          <p>Thé vert Fuji Yama</p>
-          <p>Thé vert jasmin</p>
-          <br><br>
-          <!-- French tea -->
-          <h2>French breakfast tea 8€</h2>
-          <!-- Infusion -->
-          <h2>Infusions 6€</h2>
-          <!-- Homemade hot chocolate -->
-          <h2>Chocolat chaud maison 8€</h2>
-          <!-- Milk -->
-          <h2>Lait chaud</h2>
-          <p>Nature 5€</p>
-          <p>Vanille 6.5€</p>
-        </div>
+        <li>
+          <input id="group-4" type="checkbox" hidden/>
+          <label for="group-4"><span class="fa fa-angle-right"></span>Boissons chaudes</label>
+          <ul class="group-list">
+            <!-- Coffee -->
+            <li><h2>Café expresso 3.9€</h2></li>
+            <li><h2>Double expresso 7.5€</h2></li>
+            <li><p>Café crème</p></li>
+            <li><p>Cappuccino</p></li>
+            
+            <!-- Tea -->
+            <li><h2>Thés "MARIAGE FRERES" 8€</h2></li>
+            <li><p>Earl grey</p></li>
+            <li><p>Ceylan</p></li>
+            <li><p>Darjeeling</p></li>
+            <li><p>Marco polo</p></li>
+            <li><p>Thé vert Fuji Yama</p></li>
+            <li><p>Thé vert jasmin</p></li>
+            
+            <!-- French tea -->
+            <li><h2>French breakfast tea 8€</h2></li>
 
-        <!-- Juice and water -->
-        <button class="accordion">Les jus et eaux</button>
-        <div class="panel">
-          <!-- Juice -->
-          <h2>Jus 7€</h2>
-          <p>Oranges fraiches</p>
-          <p>Pamplemousses frais</p>
-          <p>Citrons frais</p>
-          <br><br>
-          <!-- Minute juice -->
-          <h2>Jus minutes 9€</h2>
-          <p>Carottes bios</p>
-          <p>Green detox</p>
-          <br><br>
-          <!-- Water -->
-          <h2>Vittel, San Pellegrino, Perrier</h2>
-          <p>50 cL 6€</p>
-          <p>100 cL 7.5€</p>
-        </div>
+            <!-- Infusion -->
+            <li><h2>Infusions 6€</h2></li>
+
+            <!-- Homemade hot chocolate -->
+            <li><h2>Chocolat chaud maison 8€</h2></li>
+
+            <!-- Milk -->
+            <li><h2>Lait chaud</h2></li>
+            <li><p>Nature 5€</p></li>
+            <li><p>Vanille 6.5€</p></li>
+          </ul>
+        </li>
+
+        <!-- Juices & water -->
+        <li>
+          <input id="group-5" type="checkbox" hidden/>
+          <label for="group-5"><span class="fa fa-angle-right"></span>Jus & eaux</label>
+          <ul class="group-list">
+            <!-- Juice -->
+            <li><h2>Jus 7€</h2></li>
+            <li><p>Oranges fraiches</p></li>
+            <li><p>Pamplemousses frais</p></li>
+            <li><p>Citrons frais</p></li>
+            
+            <!-- Minute juice -->
+            <li><h2>Jus minutes 9€</h2></li>
+            <li><p>Carottes bios</p></li>
+            <li><p>Green detox</p></li>
+            
+            <!-- Water -->
+            <li><h2>Vittel, San Pellegrino, Perrier</h2></li>
+            <li><p>50 cL 6€</p></li>
+            <li><p>100 cL 7.5€</p></li>
+          </ul>
+        </li>
 
         <!-- Pastries -->
-        <button class="accordion">Viennoiseries</button>
-        <div class="panel">
-          <!-- Normal -->
-          <h2>Croissant 4.5€</h2>
-          <h2>Pain au chocolat 4.5€</h2>
-          <br><br>
-          <!-- Mini -->
-          <h2>Mini croissant 3€</h2>
-          <h2>Mini pain au chocolat 3€</h2>
-          <br><br>
-          <!-- mix -->
-          <h2>Panier de mini viennoiseries assorties 10€</h2>
-        </div>
+        <li>
+          <input id="group-6" type="checkbox" hidden/>
+          <label for="group-6"><span class="fa fa-angle-right"></span>Viennoiseries</label>
+          <ul class="group-list">
+            <!-- Normal -->
+            <li><h2>Croissant 4.5€</h2></li>
+            <li><h2>Pain au chocolat 4.5€</h2></li>
+            
+            <!-- Mini -->
+            <li><h2>Mini croissant 3€</h2></li>
+            <li><h2>Mini pain au chocolat 3€</h2></li>
+            
+            <!-- Mix -->
+            <li><h2>Panier de mini viennoiseries assorties 10€</h2></li>
+          </ul>
+        </li>
 
-        <!-- Bread and gourmandises -->
-        <button class="accordion">Pains et gourmandises</button>
-        <div class="panel">
-          <!-- Ficelle -->
-          <h2>Ficelle grillée 6€</h2>
-          <p>Beurre et confiture</p>
-          <br><br>
-          <!-- poilâne -->
-          <h2>Pain poilâne grillé 6€</h2>
-          <p>Beurre et confiture</p>
-          <br><br>
-          <!-- Toast -->
-          <h2>Toast de pain de mie 5€</h2>
-          <p>Beurre et confiture</p>
-        </div>
-      </div>
+        <!-- Breads & gourmandises -->
+        <li>
+          <input id="group-7" type="checkbox" hidden/>
+          <label for="group-7"><span class="fa fa-angle-right"></span>Pains & gourmandises</label>
+          <ul class="group-list">
+            <!-- Ficelle -->
+            <li><h2>Ficelle grillée 6€</h2></li>
+            <li><p>Beurre et confiture</p></li>
+            
+            <!-- poilâne -->
+            <li><h2>Pain poilâne grillé 6€</h2></li>
+            <li><p>Beurre et confiture</p></li>
+            
+            <!-- Toast -->
+            <li><h2>Toast de pain de mie 5€</h2></li>
+            <li><p>Beurre et confiture</p></li>
+          </ul>
+        </li>
+      </ul>
 
       <!-- Meals -->
-      <div id="meals" class="tabcontent">
+      <ul id="meals" class="tabcontent">
         <!-- Appetizer -->
-        <button class="accordion">Entrées</button>
-        <div class="panel">
-          <h2>Oeufs bio mimosa aux truffes d'automne 18€</h2>
-          <br><br>
-          <h2>Coeur de laitue, huile d'olive & jus de citron 14€</h2>
-          <br><br>
-          <h2>Velouté de potimarron, émulsion coco-gingembre 14€</h2>
-          <br><br>
-          <h2>Burrata, pesto artichaut-noix 16€</h2>
-          <br><br>
-          <h2>Haricots verts, parmesan, noisettes, & champignons de paris 15€</h2>
-          <br><br>
-          <h2>Tarama petrossian, crackers de seigle 20€</h2>
-          <br><br>
-          <h2>Crispy tuna sushi 21€</h2>
-          <br><br>
-          <h2>Carpaccio de noix de saint-jacques, clémentine & poivre timut 24€</h2>
-          <br><br>
-          <h2>Tourteau, céleri rémoulade minute & oeufs de saumon 18€</h2>
-          <br><br>
-          <h2>Saumon fumé artisanal, quelques toasts & crème isigny 28€</h2>
-          <br><br>
-          <h2>Calamars croustillants, creamy spicy 19€</h2>
-          <br><br>
-          <h2>King crabe, pamplemousse rose & coeur de laitue 42€</h2>
-          <br><br>
-          <h2>Foie gras de canard maison 21€</h2>
-          <br><br>
-          <h2>Nems poulet maison yoom 20€</h2>
-          <br><br>
-          <h2>Caviar oscietre petrossian 30 grammes, blinis & creme isigny 120€</h2>
-          <br><br>
-        </div>
+        <li>
+          <input id="group-8" type="checkbox" hidden/>
+          <label for="group-8"><span class="fa fa-angle-right"></span>Entrées</label>
+          <ul class="group-list">
+            <li><h2>Oeufs bio mimosa aux truffes d'automne 18€</h2></li>
+            <li><h2>Coeur de laitue, huile d'olive & jus de citron 14€</h2></li>
+            <li><h2>Velouté de potimarron, émulsion coco-gingembre 14€</h2></li>
+            <li><h2>Burrata, pesto artichaut-noix 16€</h2></li>
+            <li><h2>Haricots verts, parmesan, noisettes, & champignons de paris 15€</h2></li>
+            <li><h2>Tarama petrossian, crackers de seigle 20€</h2></li>
+            <li><h2>Crispy tuna sushi 21€</h2></li>
+            <li><h2>Carpaccio de noix de saint-jacques, clémentine & poivre timut 24€</h2></li>
+            <li><h2>Tourteau, céleri rémoulade minute & oeufs de saumon 18€</h2></li>
+            <li><h2>Saumon fumé artisanal, quelques toasts & crème isigny 28€</h2></li>
+            <li><h2>Calamars croustillants, creamy spicy 19€</h2></li>
+            <li><h2>King crabe, pamplemousse rose & coeur de laitue 42€</h2></li>
+            <li><h2>Foie gras de canard maison 21€</h2></li>
+            <li><h2>Nems poulet maison yoom 20€</h2></li>
+            <li><h2>Caviar oscietre petrossian 30 grammes, blinis & creme isigny 120€</h2></li>
+          </ul>
+        </li>
 
         <!-- Temporary -->
-        <button class="accordion">En ce moment</button>
-        <div class="panel">
-          <h2>Vésuvio du Chef 23€</h2>
-          <video autoplay muted loop>
-            <source src="Videos/pizza.mp4" type=video/mp4>
-          </video>
-          <div class="other-chief">
-            <img src="Pictures/Team/eden_hazan.jpeg" alt="Eden Hazan">
-            <p>Voici <b>Eden Hazan</b>, jeune chef d'une pizzeria de renom à Toronto : Pi Co.<br><br>
-            Nous collaborons ensemble pour vous proposer exceptionnellement cette pizza unique !
-            </p>
-          </div>
-        </div>
+        <li>
+          <input id="group-667" type="checkbox" hidden/>
+          <label for="group-667"><span class="fa fa-angle-right"></span>En ce moment</label>
+          <ul class="group-list" id="pizza">
+            <li><h2>Vésuvio du Chef 23€</h2></li>
+            <li>
+              <video autoplay muted loop>
+                <source src="Videos/pizza.mp4" type=video/mp4>
+              </video>
+            </li>
+            <div class="other-chief">
+              <img src="Pictures/Team/eden_hazan.jpeg" alt="Eden Hazan">
+              <p>Voici <b>Eden Hazan</b>, jeune chef d'une pizzeria de renom à Toronto : Pi Co.
+              Nous collaborons ensemble pour vous proposer exceptionnellement cette pizza unique !
+              </p>
+            </div>
+          </ul>
+        </li>
 
         <!-- Fish -->
-        <button class="accordion">Poissons</button>
-        <div class="panel">
-          <h2>Noix de saint-jacques plancha, barigoule crémeuse d’artichauts poivrade 42€</h2>
-          <br><br>
-          <h2>Thon snacké, shiitake, sésame & coriandre 36€</h2>
-          <br><br>
-          <h2>Cabillaud rôti aux morilles, légumes verts 36€</h2>
-          <br><br>
-          <h2>La sole sauvage 58€</h2>
-        </div>
+        <li>
+          <input id="group-9" type="checkbox" hidden/>
+          <label for="group-9"><span class="fa fa-angle-right"></span>Poissons</label>
+          <ul class="group-list">
+            <li><h2>Noix de saint-jacques plancha, barigoule crémeuse d’artichauts poivrade 42€</h2></li>
+            <li><h2>Thon snacké, shiitake, sésame & coriandre 36€</h2></li>
+            <li><h2>Cabillaud rôti aux morilles, légumes verts 36€</h2></li>
+            <li><h2>La sole sauvage 58€</h2></li>
+          </ul>
+        </li>
 
         <!-- Meat -->
-        <button class="accordion">Viandes</button>
-        <div class="panel">
-          <h2>Tartare de boeuf aubrac 24€</h2>
-          <br><br>
-          <h2>Le tigre qui pleure 35€</h2>
-          <br><br>
-          <h2>Chateau-filet béarnaise ou poivre 36€</h2>
-          <br><br>
-          <h2>La milanaise 34€</h2>
-          <br><br>
-          <h2>Pomme de ris de veau meunière, jus réduit au citron kalamansi 45€</h2>
-        </div>
+        <li>
+          <input id="group-10" type="checkbox" hidden/>
+          <label for="group-10"><span class="fa fa-angle-right"></span>Viandes</label>
+          <ul class="group-list">
+            <li><h2>Tartare de boeuf aubrac 24€</h2></li>
+            <li><h2>Le tigre qui pleure 35€</h2></li>
+            <li><h2>Chateau-filet béarnaise ou poivre 36€</h2></li>
+            <li><h2>La milanaise 34€</h2></li>
+            <li><h2>Pomme de ris de veau meunière, jus réduit au citron kalamansi 45€</h2></li>
+          </ul>
+        </li>
 
         <!-- Trimming -->
-        <button class="accordion">Accompagnements</button>
-        <div class="panel">
-          <h2>Pommes allumettes maison</h2>
-          <br><br>
-          <h2>Haricots verts frais</h2>
-          <br><br>
-          <h2>Pomme purée maison</h2>
-          <br><br>
-          <h2>Epinards minute</h2>
-          <br><br>
-          <h2>Penne tomate epicée</h2>
-          <br><br>
-          <h2>Coeur de sucrine</h2>
-          <br><br>
-          <h2>Basmati coco citronnelle</h2>
-          <br><br>
-          <p>Garniture supplementaire 6€</p>
-        </div>
+        <li>
+          <input id="group-11" type="checkbox" hidden/>
+          <label for="group-11"><span class="fa fa-angle-right"></span>Accompagnements</label>
+          <ul class="group-list">
+            <li><h2>Pommes allumettes maison</h2></li>
+            <li><h2>Haricots verts frais</h2></li>
+            <li><h2>Pomme purée maison</h2></li>
+            <li><h2>Epinards minute</h2></li>
+            <li><h2>Penne tomate epicée</h2></li>
+            <li><h2>Coeur de sucrine</h2></li>
+            <li><h2>Basmati coco citronnelle</h2></li>
+            <li><p>Garniture supplementaire 6€</p></li>
+          </ul>
+        </li>
 
-        <!-- Cheese and desserts -->
-        <button class="accordion">Fromage et desserts</button>
-        <div class="panel">
-          <h2>Chèvre fermier monsieur FABRE 14€</h2>
-          <br><br>
-          <h2>Pavlova glacée poire 16€</h2>
-          <br><br>
-          <h2>Tarte citron 16€</h2>
-          <br><br>
-          <h2>Dingue de l’ile flottante 12€</h2>
-          <br><br>
-          <h2>Tarte chocolat jivara-café 14€</h2>
-          <br><br>
-          <h2>Salade de fruits frais 16€</h2>
-          <br><br>
-          <h2>Des fruits rouges 19€</h2>
-          <br><br>
-          <h2>Coupe fruits rouges, glace yaourt & chantilly 20€</h2>
-          <br><br>
-          <h2>Glaces et sorbets C. PEDONE. 5€ (la boule)</h2>
-          <p>Parfums: citron, fraise, cacao, poire, vanille, yaourt, caramel</p>
-        </div>
-      </div>
+        <!-- Cheese & desserts -->
+        <li>
+          <input id="group-12" type="checkbox" hidden/>
+          <label for="group-12"><span class="fa fa-angle-right"></span>Fromages & desserts</label>
+          <ul class="group-list">
+            <li><h2>Chèvre fermier monsieur FABRE 14€</h2></li>
+            <li><h2>Pavlova glacée poire 16€</h2></li>
+            <li><h2>Tarte citron 16€</h2></li>
+            <li><h2>Dingue de l’ile flottante 12€</h2></li>
+            <li><h2>Tarte chocolat jivara-café 14€</h2></li>
+            <li><h2>Salade de fruits frais 16€</h2></li>
+            <li><h2>Des fruits rouges 19€</h2></li>
+            <li><h2>Coupe fruits rouges, glace yaourt & chantilly 20€</h2></li>
+            <li><h2>Glaces et sorbets C. PEDONE. 5€ (la boule)</h2></li>
+            <li><p>Parfums: citron, fraise, cacao, poire, vanille, yaourt, caramel</p></li>
+          </ul>
+        </li>
+      </ul>
 
       <!-- Drinks -->
-      <div id="drinks" class="tabcontent">
+      <ul id="drinks" class="tabcontent">
         <!-- Soft -->
-        <button class="accordion">Softs</button>
-        <div class="panel">
-          <h2>Jus de carottes bio et gingembre 9€</h2>
-          <br><br>
-          <h2>healthy green detox 9€</h2>
-          <p>granny, concombre, celeri, basilic</p>
-          <br><br>
-          <h2>vittel, San Pellegrino, Perrier</h2>
-          <p>50cL 6.5€</p>
-          <p>100cL 7.5€</p>
-          <br><br>
-          <h2>perrier, coca-cola, coca-cola light, coca-cola zero</h2>
-          <p>33cL 6.5€</p>
-          <br><br>
-          <h2>Elderflower Tonic / Ginger Ale / Indian Tonic</h2>
-          <p>20cl 9€</p>
-          <br><br>
-          <h2>Red bull</h2>
-          <p>20cL 9€</p>
-          <br><br>
-          <h2>Pur jus de fruits / nectar de fruits Charles PAPILLON 9€</h2>
-          <p>Pomme, tomate 25cL</p>
-          <p>Framboise, pêche de vigne, abricot, poire williams 25cl</p>
-          <br><br>
-          <h2>Fruits frais 7€</h2>
-          <p>Orange</p>
-          <p>Pamplemousse</p>
-          <p>Citron</p>
-          <br><br>
-          <h2>thé glacé / café frappé 7€</h2>
-        </div>
+        <li>
+          <input id="group-13" type="checkbox" hidden/>
+          <label for="group-13"><span class="fa fa-angle-right"></span>Soft</label>
+          <ul class="group-list">
+            <li><h2>Jus de carottes bio et gingembre 9€</h2></li>
+            <li><h2>healthy green detox 9€</h2></li>
+            <li><p>granny, concombre, celeri, basilic</p></li>
+            <li><h2>vittel, San Pellegrino, Perrier</h2></li>
+            <li><p>50cL 6.5€</p></li>
+            <li><p>100cL 7.5€</p></li>
+            <li><h2>perrier, coca-cola, coca-cola light, coca-cola zero</h2></li>
+            <li><p>33cL 6.5€</p></li>
+            <li><h2>Elderflower Tonic / Ginger Ale / Indian Tonic</h2></li>
+            <li><p>20cl 9€</p></li>
+            <li><h2>Red bull</h2></li>
+            <li><p>20cL 9€</p></li>
+            <li><h2>Pur jus de fruits / nectar de fruits Charles PAPILLON 9€</h2></li>
+            <li><p>Pomme, tomate 25cL</p></li>
+            <li><p>Framboise, pêche de vigne, abricot, poire williams 25cl</p></li>
+            <li><h2>Fruits frais 7€</h2></li>
+            <li><p>Orange</p></li>
+            <li><p>Pamplemousse</p></li>
+            <li><p>Citron</p></li>
+            <li><h2>thé glacé / café frappé 7€</h2></li>
+          </ul>
+        </li>
 
         <!-- Alcohol -->
-        <button class="accordion">Alcools</button>
-        <div class="panel">
-          <P>L’abus d’alcool est dangereux pour la santé, à consommer avec modération</P>
-          <!-- Wines and champagne-->
-          <button class="accordion">Vins et champagnes</button>
-          <button class="accordion">Vins</button>
-          <button class="accordion">Bouteilles</button>
-          <!-- White Wine -->
-          <button class="accordion">Les vins blancs</button>
-          <!-- Corse -->
-          <button class="accordion">Corse</button>
-          <h2>Clos venturi Domaine Vico 20</h2>
-          <p>75 cL | 69€</p>
-          <!-- Bordeaux -->
-          <button class="accordion">Bordeaux</button>
-          <h2>Château Petit-Guiraud Sauternes AOC 19</h2>
-          <p>75 cL | 65€</p>
-          <!-- Languedoc -->
-          <button class="accordion">Languedoc</button>
-          <h2>Domaine d’Aigues Belles Le premier Rolle – Gilles Palatan 18</h2>
-          <p>75 cL | 50€</p>
-          <!-- Côtes de provence -->
-          <button class="accordion">Côtes de provence</button>
-          <h2>Château Minuty – Blanc et or 20</h2>
-          <p>75 cL | 59€</p>
-          <!-- Rhône -->
-          <button class="accordion">Rhône</button>
-          <h2>Châteauneuf-du-Pape Château la Nerthe 19</h2>
-          <p>75 cL | 95€</p>
-          <br><br>
-          <h2>Condrieu – Clos Boucher Delas 19</h2>
-          <p>75 cL | 98€</p>
-          <!-- Loire -->
-          <button class="accordion">Loire</button>
-          <h2>Vinifera Sauvignon AOC – Issu de vignes uniques non greffées H. Marionnet 17</h2>
-          <p>75 cL | 45€</p>
-          <br><br>
-          <h2>Sancerre – Pascal Jolivet 20</h2>
-          <p>37.5 cL | 30€</p>
-          <p>75 cL | 52€</p>
-          <br><br>
-          <h2>Pouilly fumé – Pascal Jolivet 20</h2>
-          <p>75 cL | 55€</p>
-          <!-- Bourgogne -->
-          <button class="accordion">Bourgogne</button>
-          <h2>Chablis – Le Finage La Chablisienne 17</h2>
-          <p>37.5 cL | 29€</p>
-          <p>75 cL | 49€</p>
-          <br><br>
-          <h2>Vézelay AOC Couvent des Saint Pères 18</h2>
-          <p>75 cL | 52€</p>
-          <br><br>
-          <h2>Hautes Côtes de Beaune Les Champlains Domaine Decelle et Villa 17</h2>
-          <p>75 cL | 64€</p>
-          <br><br>
-          <h2>Pouilly-Fuissé Domaine du Roc des Boutires 19</h2>
-          <p>75 cL | 66€</p>
-          <br><br>
-          <h2>Savigny-lès-Beaune – 1er Cru Monopole Doudet Naudin 17</h2>
-          <p>75 cL | 85€</p>
-          <br><br>
-          <h2>Château de Chassagne-Montrachet Domaine Bader Mimeur 08</h2>
-          <p>75 cL | 95€</p>
-          <br><br>
-          <h2>Meursault – Le Limozin Château de Meursault 18</h2>
-          <p>75 cL | 115€</p>
-          <br><br>
-          <h2>Corton-Charlemagne Grand Cru Domaine Champy 17</h2>
-          <p>75 cL | 195€</p>
-          <!-- Jura -->
-          <button class="accordion">Jura</button>
-          <h2>Chardonnay – Arbois Domaine rolet 15</h2>
-          <p>75 cL | 49€</p>
-          <!-- Vin de France -->
-          <button class="accordion">Vin de France</button>
-          <h2>Viognier – Vermentino bio – la Winerie Adrien Pélissié 20</h2>
-          <p>75 cL | 42€</p>
-          <!-- Vin d'Ile de France -->
-          <button class="accordion">Vin d'Ile de France</button>
-          <h2>Chenin – Le Grand Lever Domaine – La Bouche du Roi A. Pelissié & J. Brustis 20</h2>
-          <p>75 cL | 52€</p>
+        <li>
+          <input id="group-14" type="checkbox" hidden/>
+          <label for="group-14"><span class="fa fa-angle-right"></span>Alcools</label>
+          <ul class="group-list">
+            <li><P>L’abus d’alcool est dangereux pour la santé, à consommer avec modération</P></li>
+            <!-- Wines & champagnes -->
+            <li>
+              <input id="sub-group-14" type="checkbox" hidden />
+              <label for="sub-group-14"><span class="fa fa-angle-right"></span>Vins & champagnes</label>
+              <ul class="sub-group-list">
+                <!-- Vins -->
+                <li>
+                  <input id="sub-sub-group-14" type="checkbox" hidden />
+                  <label for="sub-sub-group-14"><span class="fa fa-angle-right"></span>Vins</label>
+                  <ul class="sub-sub-group-list">
+                    <!-- Bouteilles -->
+                    <li>
+                      <input id="sub-sub-sub-group-14" type="checkbox" hidden />
+                      <label for="sub-sub-sub-group-14"><span class="fa fa-angle-right"></span>Bouteilles</label>
+                      <ul class="sub-sub-sub-group-list">
+                        <!-- Vins blancs -->
+                        <li>
+                          <input id="sub-sub-sub-sub-group-14" type="checkbox" hidden />
+                          <label for="sub-sub-sub-sub-group-14"><span class="fa fa-angle-right"></span>Vins blancs</label>
+                          <ul class="sub-sub-sub-sub-group-list">
+                            <!-- Corse -->
+                            <li>
+                              <input id="sub-sub-sub-sub-sub-group-14" type="checkbox" hidden />
+                              <label for="sub-sub-sub-sub-sub-group-14"><span class="fa fa-angle-right"></span>Corse</label>
+                              <ul class="sub-sub-sub-sub-sub-group-list">
+                                <li><h2>Clos venturi Domaine Vico 20</h2></li>
+                                <li><p>75 cL | 69€</p></li>
+                              </ul>
+                            </li>
 
-          <!-- Rosé Wine -->
-          <button class="accordion">Les vins rosés</button>
-          <!-- Vin de France -->
-          <button class="accordion">Vin de France</button>
-          <h2>Rosé bio – la Winerie Adrien Pélissié 20</h2>
-          <p>75 cL | 35€</p>
-          <br><br>
-          <h2>Alône – Provence P. Jourdan & C. Ott 20</h2>
-          <p>75 cL | 52€</p>
-          <!-- Côtes de provence -->
-          <button class="accordion">Côtes de provence</button>
-          <h2>Domaine de l’Île « Bio » 20 Porquerolles, Maison CHANEL</h2>
-          <p>75 cL | 49€</p>
-          <br><br>
-          <h2>Château Minuty Rosé et Or 20</h2>
-          <p>75 cL | 59€</p>
-          <p>150 cL | 110€</p>
-          <br><br>
-          <h2>Château Minuty Cuvée 281 – A.O.C  20</h2>
-          <p>75 cL | 90€</p>
+                            <!-- Bordeaux -->
+                            <li>
+                              <input id="sub-sub-sub-sub-sub-group-15" type="checkbox" hidden />
+                              <label for="sub-sub-sub-sub-sub-group-15"><span class="fa fa-angle-right"></span>Bordeaux</label>
+                              <ul class="sub-sub-sub-sub-sub-group-list">
+                                <li><h2>Château Petit-Guiraud Sauternes AOC 19</h2></li>
+                                <li><p>75 cL | 65€</p></li>
+                              </ul>
+                            </li>
 
-          <!-- Red Wine -->
-          <button class="accordion">Les vins rouges</button>
-          <!-- Vin de France -->
-          <button class="accordion">Vin de France</button>
-          <h2>Le Jugement de Paris – la Winerie Adrien Pelissié 16</h2>
-          <p>75 cL | 88€</p>
-          <!-- Vin d'Ile de France -->
-          <button class="accordion">Vin d'Ile de France</button>
-          <h2>Cabernet Franc – Coquilles rouges Domaine – La Bouche du Roi A. Pelissié & J. Brustis 20</h2>
-          <p>75 cL | 45€</p>
-          <!-- Corse -->
-          <button class="accordion">Corse</button>
-          <h2>Clos Canarelli bio – Figari 19</h2>
-          <p>75 cL | 70€</p>
-          <!-- Provence -->
-          <button class="accordion">Provence</button>
-          <h2>Bandol AOC Domaine de Terrebrune 16</h2>
-          <p>75 cL | 70€</p>
-          <!-- Rhône -->
-          <button class="accordion">Rhône</button>
-          <h2>Côtes du Rhône – les Becs Fins Laurent Tardieu 19</h2>
-          <p>75 cL | 39€</p>
-          <br><br>
-          <h2>Crozes-Hermitage – Les Launes Delas 20</h2>
-          <p>75 cL | 49€</p>
-          <br><br>
-          <h2>Saint-Joseph – Coteaux Laurent Tardieu 17</h2>
-          <p>75 cL | 75€</p>
-          <br><br>
-          <h2>Cornas – Domaine du Tunnel Stéphane Robert 18</h2>
-          <p>75 cL | 89€</p>
-          <br><br>
-          <h2>Châteauneuf-du-Pape Château la Nerthe 16</h2>
-          <p>75 cL | 95€</p>
-          <br><br>
-          <h2>Hermitage – Delas Domaine des Tourettes 16</h2>
-          <p>75 cL | 98€</p>
-          <br><br>
-          <h2>Côte-Rôtie – Seigneur de Maugiron Delas 19</h2>
-          <p>75 cL | 105€</p>
-          <br><br>
-          <h2>Côte-Rôtie – La Mouline E- Guigal 11</h2>
-          <p>75 cL | 390€</p>
-          <!-- Languedoc -->
-          <button class="accordion">Languedoc</button>
-          <h2>Corbières – Domaine la Forge Gérard Bertrand 19</h2>
-          <p>75 cL | 89€</p>
-          <!-- Loire -->
-          <button class="accordion">Loire</button>
-          <h2>Sancerre – les Bonnes Bouches H. Bourgeois 16/18</h2>
-          <p>37.5 cL | 35€</p>
-          <p>75 cL | 55€</p>
-          <br><br>
-          <h2>Touraine Renaissance Vin nature – vignes non greffées Marionnet 19</h2>
-          <p>75 cL | 45€</p>
-          <!-- Bourgogne -->
-          <button class="accordion">Bourgogne</button>
-          <h2>Bourgogne – Vieilles vignes Retour des Flandres – Régnard 17</h2>
-          <p>75 cL | 55€</p>
-          <br><br>
-          <h2>Chorey-lès-beaune – Les Poiriers Domaine Decelle et Villa 18</h2>
-          <p>75 cL | 72€</p>
-          <br><br>
-          <h2>Pernand Vergelesses 1er Cru Les Vergelesses – D. Guyon 18</h2>
-          <p>75 cL | 85€</p>
-          <br><br>
-          <h2>Morey-Saint-Denis 1er Cru Clos des Ormes – Georges Lignier 18</h2>
-          <p>75 cL | 92€</p>
-          <br><br>
-          <h2>Chambolle-Musigny Les Beaux Bruns – Domaine Rion 18</h2>
-          <p>75 cL | 115€</p>
-          <br><br>
-          <h2>Volnay 1er cru – Clos des Chênes Domaine Antonin Guyon 18</h2>
-          <p>75 cL | 125€</p>
-          <br><br>
-          <h2>Nuits-Saint-Georges 1er cru Aux Perdrix B & C. Devillard 13</h2>
-          <p>75 cL | 130€</p>
-          <br><br>
-          <h2>Charmes-Chambertin Grand cru Domaine Huguenot 17</h2>
-          <p>75 cL | 175€</p>
-          <br><br>
-          <h2>Clos Vougeot AOC Grand Cru le Petit Maupertuis Domaine Daniel Rion 12</h2>
-          <p>75 cL | 190€</p>
-          <!-- Beaujolais -->
-          <button class="accordion">Beaujolais</button>
-          <h2>Moulin à vent Couvent des Thorins 19</h2>
-          <p>75 cL | 46€</p>
-          <br><br>
-          <h2>Morgon – Corcelettes Domaine L. Claude Desvignes 20</h2>
-          <p>75 cL | 48€</p>
-          <!-- Bordeaux -->
-          <button class="accordion">Bordeaux</button>
-          <h2>Saint-Estèphe 2017 La Devise de Lilian</h2>
-          <p>75 cL | 46€</p>
-          <br><br>
-          <h2>Château de Landiras Jeanne de Lestonnac – Graves 16</h2>
-          <p>75 cL | 48€</p>
-          <br><br>
-          <h2>Moulin de La Lagune Haut-Médoc 14</h2>
-          <p>75 cL | 66€</p>
-          <br><br>
-          <h2>Château Maucaillou Moulis 16</h2>
-          <p>75 cL | 77€</p>
-          <br><br>
-          <h2>Château Lalande-Borie Saint-Julien 14</h2>
-          <p>75 cL | 85€</p>
-          <br><br>
-          <h2>Château Latour-Martillac Pessac-Léognan 14</h2>
-          <p>75 cL | 89€</p>
-          <br><br>
-          <h2>Château Pedesclaux Pauillac 14</h2>
-          <p>75 cL | 98€</p>
-          <br><br>
-          <h2>Château d’Issan – Margaux 3eme Grand cru classé 14</h2>
-          <p>75 cL | 110€</p>
-          <br><br>
-          <h2>Château Dassault – Saint-Emilion Grand Cru classé 16</h2>
-          <p>75 cL | 115€</p>
-          <br><br>
-          <h2>Château Clinet – Pomerol 14</h2>
-          <p>75 cL | 160€</p>
-          <br><br>
-          <h2>Château Canon – Saint-Emilion 1er Grand Cru classé 11</h2>
-          <p>75 cL | 220€</p>
-          <br><br>
-          <h2>Château Léoville Barton Saint-Julien – Grand cru classé 09</h2>
-          <p>75 cL | 260€</p>
-          <br><br>
-          <h2>Château Figeac – Saint-Emilion 1er Grand Cru classé 09</h2>
-          <p>75 cL | 290€</p>
-          <!-- Glass -->
-          <button class="accordion">Verres</button>
-          <!-- Rosé wine -->
-          <button class="accordion">Vins rosés</button>
-          <h2>Rosé bio – la Winerie Adrien Pélissié 2020</h2>
-          <p>15 cL | 8€</p>
-          <br><br>
-          <h2>Domaine de l’Île « Bio » 20 Porquerolles Maison CHANEL</h2>
-          <p>15 cL | 10€</p>
-          <br><br>
-          <h2>Château Minuty – Rosé et Or Côtes de Provence 2020</h2>
-          <p>15 cL | 13€</p>
-          <!-- White wine -->
-          <button class="accordion">Vins blancs</button>
-          <h2>Viognier – Vermentino bio – la Winerie Adrien Pelissié 2020</h2>
-          <p>15 cL | 8€</p>
-          <br><br>
-          <h2>Chablis – Le Finage La Chablisienne 17</h2>
-          <p>15 cL | 10€</p>
-          <br><br>
-          <h2>Vézelay AOC Couvent des Saint Pères 17</h2>
-          <p>15 cL | 10€</p>
-          <br><br>
-          <h2>Pouilly Fumé Pascal Jolivet 2020</h2>
-          <p>15 cL | 12€</p>
-          <br><br>
-          <h2>Chenin – Le Grand Lever Domaine – La Bouche du Roi A. Pelissié & J. Brustis 20</h2>
-          <p>15 cL | 13€</p>
-          <br><br>
-          <h2>Château Petit-Guiraud Sauternes AOC – 19</h2>
-          <p>15 cL | 14€</p>
-          <!-- Red wine -->
-          <button class="accordion">Vins rouges</button>
-          <h2>Moulin à Vent Couvent des Thorins 2019</h2>
-          <p>15 cL | 10€</p>
-          <br><br>
-          <h2>Cabernet franc – Coquilles rouge Domaine – La Bouche du Roi A. Pelissié & J. Brustis 20</h2>
-          <p>15 cL | 12€</p>
-          <br><br>
-          <h2>Crozes-Hermitage – Les Launes Delas 20</h2>
-          <p>15 cL | 10€</p>
-          <br><br>
-          <h2>Chorey-Les-Beaunes – Les Poiriers Decelle & Villa 2018</h2>
-          <p>15 cL | 15€</p>
-          <br><br>
-          <h2>Saint-Estèphe 2017 La Devise de Lilian</h2>
-          <p>15 cL | 10€</p>
-          <br><br>
-          <h2>Château Landiras – Graves Jeanne de Lestonnac 2016</h2>
-          <p>15 cL | 10€</p>
+                            <!-- Languedoc -->
+                            <li>
+                              <input id="sub-sub-sub-sub-sub-group-16" type="checkbox" hidden />
+                              <label for="sub-sub-sub-sub-sub-group-16"><span class="fa fa-angle-right"></span>Languedoc</label>
+                              <ul class="sub-sub-sub-sub-sub-group-list">
+                                <li><h2>Domaine d’Aigues Belles Le premier Rolle – Gilles Palatan 18</h2></li>
+                                <li><p>75 cL | 50€</p></li>
+                              </ul>
+                            </li>
 
-          <!-- Champagne -->
-          <button class="accordion">Champagnes</button>
-          <button class="accordion">Bouteilles</button>
-          <h2>Rœderer brut premier</h2>
-          <p>75 cL | 98€</p>
-          <br><br>
-          <h2>R de Ruinart</h2>
-          <p>75 cL | 90€</p>
-          <br><br>
-          <h2>Roederer Rosé millésimé 2013</h2>
-          <p>75 cL | 95€</p>
-          <br><br>
-          <h2>Roederer Brut millésimé 2012</h2>
-          <p>75 cL | 95€</p>
-          <br><br>
-          <h2>Roederer Blanc de Blancs 2014</h2>
-          <p>75 cL | 95€</p>
-          <br><br>
-          <h2>Bollinger spécial cuvée</h2>
-          <p>75 cL | 115€</p>
-          <br><br>
-          <h2>Veuve Clicquot</h2>
-          <p>75 cL | 105€</p>
-          <br><br>
-          <h2>Moet & Chandon Grand Vintage 2012</h2>
-          <p>75 cL | 120€</p>
-          <br><br>
-          <h2>Billecart-Salmon rosé</h2>
-          <p>75 cL | 120€</p>
-          <br><br>
-          <h2>Palmes d’or brut vintage 2006 Nicolas Feuillatte</h2>
-          <p>75 cL | 130€</p>
-          <br><br>
-          <h2>Cuvée Louise 2004 Pommery</h2>
-          <p>75 cL | 180€</p>
-          <br><br>
-          <h2>Blanc des Millénaires 2006 Charles Heidsieck</h2>
-          <p>75 cL | 240€</p>
-          <br><br>
-          <h2>Collection Crayères bouteille Charles Heidsieck (300 cl)</h2>
-          <p>300 cL | 290€</p>
-          <br><br>
-          <h2>Collection Crayères jeroboam 1989</h2>
-          <p>75 cL | 800€</p>
-          <h2>Dom Pérignon – Vintage – 2012</h2>
-          <p>75 cL | 220€</p>
-          <h2>Dom Ruinart 2009</h2>
-          <p>75 cL | 240€</p>
-          <h2>Cristal Roederer 2013</h2>
-          <p>75 cL | 260€</p>
-          <!-- Cup -->
-          <button class="accordion">Coupes</button>
-          <h2>Roederer Brut Premier</h2>
-          <p>15 cL | 16€</p>
-          <br><br>
-          <h2>Roederer Blanc de Blancs 2014</h2>
-          <p>15 cL | 18€</p>
+                            <!-- Côtes de provence -->
+                            <li>
+                              <input id="sub-sub-sub-sub-sub-group-17" type="checkbox" hidden />
+                              <label for="sub-sub-sub-sub-sub-group-17"><span class="fa fa-angle-right"></span>Côtes de provence</label>
+                              <ul class="sub-sub-sub-sub-sub-group-list">
+                                <li><h2>Château Minuty – Blanc et or 20</h2></li>
+                                <li><p>75 cL | 59€</p></li>
+                              </ul>
+                            </li>
 
-          <!-- Beer -->
-          <button class="accordion">Bières</button>
-          <!-- Pression -->
-          <button class="accordion">Pression</button>
-          <h2>Carlsberg</h2>
-          <p>25 cL | 8€</p>
-          <p>50 cL | 14€</p>
-          <br><br>
-          <h2>1664</h2>
-          <p>25 cL | 8€</p>
-          <p>50 cL | 14€</p>
-          <!-- Bottles -->
-          <button class="accordion">Bouteilles</button>
-          <h2>Carlsberg</h2>
-          <p>33 cL | 10€</p>
-          <br><br>
-          <h2>1664 blanche</h2>
-          <p>33 cL | 10€</p>
-          <br><br>
-          <h2>Corona</h2>
-          <p>35.5 cL | 10€</p>
-          <br><br>
-          <h2>Duvel</h2>
-          <p>33 cL | 12€</p>
+                            <!-- Rhône -->
+                            <li>
+                              <input id="sub-sub-sub-sub-sub-group-18" type="checkbox" hidden />
+                              <label for="sub-sub-sub-sub-sub-group-18"><span class="fa fa-angle-right"></span>Rhône</label>
+                              <ul class="sub-sub-sub-sub-sub-group-list">
+                                <li><h2>Châteauneuf-du-Pape Château la Nerthe 19</h2></li>
+                                <li><p>75 cL | 95€</p></li>
+                                <li><h2>Condrieu – Clos Boucher Delas 19</h2></li>
+                                <li><p>75 cL | 98€</p></li>
+                              </ul>
+                            </li>
+
+                            <!-- Loire -->
+                            <li>
+                              <input id="sub-sub-sub-sub-sub-group-19" type="checkbox" hidden />
+                              <label for="sub-sub-sub-sub-sub-group-19"><span class="fa fa-angle-right"></span>Loire</label>
+                              <ul class="sub-sub-sub-sub-sub-group-list">
+                                <li><h2>Vinifera Sauvignon AOC – Issu de vignes uniques non greffées H. Marionnet 17</h2></li>
+                                <li><p>75 cL | 45€</p></li>
+                                <li><h2>Sancerre – Pascal Jolivet 20</h2></li>
+                                <li><p>37.5 cL | 30€</p></li>
+                                <li><p>75 cL | 52€</p></li>
+                                <li><h2>Pouilly fumé – Pascal Jolivet 20</h2></li>
+                                <li><p>75 cL | 55€</p></li>
+                              </ul>
+                            </li>
+
+                            <!-- Bourgogne -->
+                            <li>
+                              <input id="sub-sub-sub-sub-sub-group-20" type="checkbox" hidden />
+                              <label for="sub-sub-sub-sub-sub-group-20"><span class="fa fa-angle-right"></span>Bourgogne</label>
+                              <ul class="sub-sub-sub-sub-sub-group-list">
+                                <li><h2>Chablis – Le Finage La Chablisienne 17</h2></li>
+                                <li><p>37.5 cL | 29€</p></li>
+                                <li><p>75 cL | 49€</p></li>
+                                <li><h2>Vézelay AOC Couvent des Saint Pères 18</h2></li>
+                                <li><p>75 cL | 52€</p></li>
+                                <li><h2>Hautes Côtes de Beaune Les Champlains Domaine Decelle et Villa 17</h2></li>
+                                <li><p>75 cL | 64€</p></li>
+                                <li><h2>Pouilly-Fuissé Domaine du Roc des Boutires 19</h2></li>
+                                <li><p>75 cL | 66€</p></li>
+                                <li><h2>Savigny-lès-Beaune – 1er Cru Monopole Doudet Naudin 17</h2></li>
+                                <li><p>75 cL | 85€</p></li>
+                                <li><h2>Château de Chassagne-Montrachet Domaine Bader Mimeur 08</h2></li>
+                                <li><p>75 cL | 95€</p></li>
+                                <li><h2>Meursault – Le Limozin Château de Meursault 18</h2></li>
+                                <li><p>75 cL | 115€</p></li>
+                                <li><h2>Corton-Charlemagne Grand Cru Domaine Champy 17</h2></li>
+                                <li><p>75 cL | 195€</p></li>
+                              </ul>
+                            </li>
+
+                            <!-- Jura -->
+                            <li>
+                              <input id="sub-sub-sub-sub-sub-group-21" type="checkbox" hidden />
+                              <label for="sub-sub-sub-sub-sub-group-21"><span class="fa fa-angle-right"></span>Jura</label>
+                              <ul class="sub-sub-sub-sub-sub-group-list">
+                                <li><h2>Chardonnay – Arbois Domaine rolet 15</h2></li>
+                                <li><p>75 cL | 49€</p></li>
+                              </ul>
+                            </li>
+
+                            <!-- Vins de France -->
+                            <li>
+                              <input id="sub-sub-sub-sub-sub-group-22" type="checkbox" hidden />
+                              <label for="sub-sub-sub-sub-sub-group-22"><span class="fa fa-angle-right"></span>Vins de France</label>
+                              <ul class="sub-sub-sub-sub-sub-group-list">
+                                <li><h2>Viognier – Vermentino bio – la Winerie Adrien Pélissié 20</h2></li>
+                                <li><p>75 cL | 42€</p></li>
+                              </ul>
+                            </li>
+
+                              <!-- Vins d'Île de France -->
+                            <li>
+                              <input id="sub-sub-sub-sub-sub-group-23" type="checkbox" hidden />
+                              <label for="sub-sub-sub-sub-sub-group-23"><span class="fa fa-angle-right"></span>Vins d'Île de France</label>
+                              <ul class="sub-sub-sub-sub-sub-group-list">
+                                <li><h2>Chenin – Le Grand Lever Domaine – La Bouche du Roi A. Pelissié & J. Brustis 20</h2></li>
+                                <li><p>75 cL | 52€</p></li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                        
+                        <!-- Rosé Wine -->
+                        <li>
+                          <input id="sub-sub-sub-sub-group-24" type="checkbox" hidden />
+                          <label for="sub-sub-sub-sub-group-24"><span class="fa fa-angle-right"></span>Vins rosés</label>
+                          <ul class="sub-sub-sub-sub-group-list">
+                            <!-- Vins de France -->
+                            <li>
+                              <input id="sub-sub-sub-sub-sub-group-24" type="checkbox" hidden />
+                              <label for="sub-sub-sub-sub-sub-group-24"><span class="fa fa-angle-right"></span>Vins de France</label>
+                              <ul class="sub-sub-sub-sub-sub-group-list">
+                                <li><h2>Rosé bio – la Winerie Adrien Pélissié 20</h2></li>
+                                <li><p>75 cL | 35€</p></li>
+                                <li><h2>Alône – Provence P. Jourdan & C. Ott 20</h2></li>
+                                <li><p>75 cL | 52€</p></li>
+                              </ul>
+                            </li>
+
+                            <!-- Côtes de provence -->
+                            <li>
+                              <input id="sub-sub-sub-sub-sub-group-25" type="checkbox" hidden />
+                              <label for="sub-sub-sub-sub-sub-group-25"><span class="fa fa-angle-right"></span>Côtes de provence</label>
+                              <ul class="sub-sub-sub-sub-sub-group-list">
+                                <li><h2>Domaine de l’Île « Bio » 20 Porquerolles, Maison CHANEL</h2></li>
+                                <li><p>75 cL | 49€</p></li>
+                                <li><h2>Château Minuty Rosé et Or 20</h2></li>
+                                <li><p>75 cL | 59€</p></li>
+                                <li><p>150 cL | 110€</p></li>
+                                <li><h2>Château Minuty Cuvée 281 – A.O.C  20</h2></li>
+                                <li><p>75 cL | 90€</p></li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+
+                        <!-- Red Wine -->
+                        <li>
+                          <input id="sub-sub-sub-sub-group-26" type="checkbox" hidden />
+                          <label for="sub-sub-sub-sub-group-26"><span class="fa fa-angle-right"></span>Vins rouges</label>
+                          <ul class="sub-sub-sub-sub-group-list">
+                            <!-- Vins de France -->
+                            <li>
+                              <input id="sub-sub-sub-sub-sub-group-26" type="checkbox" hidden />
+                              <label for="sub-sub-sub-sub-sub-group-26"><span class="fa fa-angle-right"></span>Vins de France</label>
+                              <ul class="sub-sub-sub-sub-sub-group-list">
+                                <li><h2>Le Jugement de Paris – la Winerie Adrien Pelissié 16</h2></li>
+                                <li><p>75 cL | 88€</p></li>
+                              </ul>
+                            </li>
+
+                            <!-- Vins d'Île de France -->
+                            <li>
+                              <input id="sub-sub-sub-sub-sub-group-27" type="checkbox" hidden />
+                              <label for="sub-sub-sub-sub-sub-group-27"><span class="fa fa-angle-right"></span>Vins d'Île de France</label>
+                              <ul class="sub-sub-sub-sub-sub-group-list">
+                                <li><h2>Cabernet Franc – Coquilles rouges Domaine – La Bouche du Roi A. Pelissié & J. Brustis 20</h2></li>
+                                <li><p>75 cL | 45€</p></li>
+                              </ul>
+                            </li>
+
+                            <!-- Corse -->
+                            <li>
+                              <input id="sub-sub-sub-sub-sub-group-28" type="checkbox" hidden />
+                              <label for="sub-sub-sub-sub-sub-group-28"><span class="fa fa-angle-right"></span>Corse</label>
+                              <ul class="sub-sub-sub-sub-sub-group-list">
+                                <li><h2>Clos Canarelli bio – Figari 19</h2></li>
+                                <li><p>75 cL | 70€</p></li>
+                              </ul>
+                            </li>
+
+                            <!-- Provence -->
+                            <li>
+                              <input id="sub-sub-sub-sub-sub-group-29" type="checkbox" hidden />
+                              <label for="sub-sub-sub-sub-sub-group-29"><span class="fa fa-angle-right"></span>Provence</label>
+                              <ul class="sub-sub-sub-sub-sub-group-list">
+                                <li><h2>Bandol AOC Domaine de Terrebrune 16</h2></li>
+                                <li><p>75 cL | 70€</p></li>
+                              </ul>
+                            </li>
+
+                            <!-- Rhône -->
+                            <li>
+                              <input id="sub-sub-sub-sub-sub-group-30" type="checkbox" hidden />
+                              <label for="sub-sub-sub-sub-sub-group-30"><span class="fa fa-angle-right"></span>Rhône</label>
+                              <ul class="sub-sub-sub-sub-sub-group-list">
+                                <li><h2>Côtes du Rhône – les Becs Fins Laurent Tardieu 19</h2></li>
+                                <li><p>75 cL | 39€</p></li>
+                                <li><h2>Crozes-Hermitage – Les Launes Delas 20</h2></li>
+                                <li><p>75 cL | 49€</p></li>
+                                <li><h2>Saint-Joseph – Coteaux Laurent Tardieu 17</h2></li>
+                                <li><p>75 cL | 75€</p></li>
+                                <li><h2>Cornas – Domaine du Tunnel Stéphane Robert 18</h2></li>
+                                <li><p>75 cL | 89€</p></li>
+                                <li><h2>Châteauneuf-du-Pape Château la Nerthe 16</h2></li>
+                                <li><p>75 cL | 95€</p></li>
+                                <li><h2>Hermitage – Delas Domaine des Tourettes 16</h2></li>
+                                <li><p>75 cL | 98€</p></li>
+                                <li><h2>Côte-Rôtie – Seigneur de Maugiron Delas 19</h2></li>
+                                <li><p>75 cL | 105€</p></li>
+                                <li><h2>Côte-Rôtie – La Mouline E- Guigal 11</h2></li>
+                                <li><p>75 cL | 390€</p></li>
+                              </ul>
+                            </li>
+
+                            <!-- Languedoc -->
+                            <li>
+                              <input id="sub-sub-sub-sub-sub-group-31" type="checkbox" hidden />
+                              <label for="sub-sub-sub-sub-sub-group-31"><span class="fa fa-angle-right"></span>Languedoc</label>
+                              <ul class="sub-sub-sub-sub-sub-group-list">
+                                <li><h2>Corbières – Domaine la Forge Gérard Bertrand 19</h2></li>
+                                <li><p>75 cL | 89€</p></li>
+                              </ul>
+                            </li>
+
+                            <!-- Loire -->
+                            <li>
+                              <input id="sub-sub-sub-sub-sub-group-32" type="checkbox" hidden />
+                              <label for="sub-sub-sub-sub-sub-group-32"><span class="fa fa-angle-right"></span>Loire</label>
+                              <ul class="sub-sub-sub-sub-sub-group-list">
+                                <li><h2>Sancerre – les Bonnes Bouches H. Bourgeois 16/18</h2></li>
+                                <li><p>37.5 cL | 35€</p></li>
+                                <li><p>75 cL | 55€</p></li>
+                                <li><h2>Touraine Renaissance Vin nature – vignes non greffées Marionnet 19</h2></li>
+                                <li><p>75 cL | 45€</p></li>
+                              </ul>
+                            </li>
+
+                            <!-- Bourgogne -->
+                            <li>
+                              <input id="sub-sub-sub-sub-sub-group-33" type="checkbox" hidden />
+                              <label for="sub-sub-sub-sub-sub-group-33"><span class="fa fa-angle-right"></span>Bourgogne</label>
+                              <ul class="sub-sub-sub-sub-sub-group-list">
+                                <li><h2>Bourgogne – Vieilles vignes Retour des Flandres – Régnard 17</h2></li>
+                                <li><p>75 cL | 55€</p></li>
+                                <li><h2>Chorey-lès-beaune – Les Poiriers Domaine Decelle et Villa 18</h2></li>
+                                <li><p>75 cL | 72€</p></li>
+                                <li><h2>Pernand Vergelesses 1er Cru Les Vergelesses – D. Guyon 18</h2></li>
+                                <li><p>75 cL | 85€</p></li>
+                                <li><h2>Morey-Saint-Denis 1er Cru Clos des Ormes – Georges Lignier 18</h2></li>
+                                <li><p>75 cL | 92€</p></li>
+                                <li><h2>Chambolle-Musigny Les Beaux Bruns – Domaine Rion 18</h2></li>
+                                <li><p>75 cL | 115€</p></li>
+                                <li><h2>Volnay 1er cru – Clos des Chênes Domaine Antonin Guyon 18</h2></li>
+                                <li><p>75 cL | 125€</p></li>
+                                <li><h2>Nuits-Saint-Georges 1er cru Aux Perdrix B & C. Devillard 13</h2></li>
+                                <li><p>75 cL | 130€</p></li>
+                                <li><h2>Charmes-Chambertin Grand cru Domaine Huguenot 17</h2></li>
+                                <li><p>75 cL | 175€</p></li>
+                                <li><h2>Clos Vougeot AOC Grand Cru le Petit Maupertuis Domaine Daniel Rion 12</h2></li>
+                                <li><p>75 cL | 190€</p></li>
+                              </ul>
+                            </li>
+
+                            <!-- Beaujolais -->
+                            <li>
+                              <input id="sub-sub-sub-sub-sub-group-34" type="checkbox" hidden />
+                              <label for="sub-sub-sub-sub-sub-group-34"><span class="fa fa-angle-right"></span>Beaujolais</label>
+                              <ul class="sub-sub-sub-sub-sub-group-list">
+                                <li><h2>Moulin à vent Couvent des Thorins 19</h2></li>
+                                <li><p>75 cL | 46€</p></li>
+                                <li><h2>Morgon – Corcelettes Domaine L. Claude Desvignes 20</h2></li>
+                                <li><p>75 cL | 48€</p></li>
+                              </ul>
+                            </li>
+
+                            <!-- Bordeaux -->
+                            <li>
+                              <input id="sub-sub-sub-sub-sub-group-35" type="checkbox" hidden />
+                              <label for="sub-sub-sub-sub-sub-group-35"><span class="fa fa-angle-right"></span>Bordeaux</label>
+                              <ul class="sub-sub-sub-sub-sub-group-list">
+                                <li><h2>Saint-Estèphe 2017 La Devise de Lilian</h2></li>
+                                <li><p>75 cL | 46€</p></li>
+                                <li><h2>Château de Landiras Jeanne de Lestonnac – Graves 16</h2></li>
+                                <li><p>75 cL | 48€</p></li>aut-Médoc 14</h2></li>
+                                <li><p>75 cL | 66€</p></li>
+                                <li><h2>Château Maucaillou Moulis 16</h2></li>
+                                <li><p>75 cL | 77€</p></li>
+                                <li><h2>Château Lalande-Borie Saint-Julien 14</h2></li>
+                                <li><p>75 cL | 85€</p></li>
+                                <li><h2>Château Latour-Martillac Pessac-Léognan 14</h2></li>
+                                <li><p>75 cL | 89€</p></li>
+                                <li><h2>Château Pedesclaux Pauillac 14</h2></li>
+                                <li><p>75 cL | 98€</p></li>
+                                <li><h2>Château d’Issan – Margaux 3eme Grand cru classé 14</h2></li>
+                                <li><p>75 cL | 110€</p></li>
+                                <li><h2>Château Dassault – Saint-Emilion Grand Cru classé 16</h2></li>
+                                <li><p>75 cL | 115€</p></li>
+                                <li><h2>Château Clinet – Pomerol 14</h2></li>
+                                <li><p>75 cL | 160€</p></li>
+                                <li><h2>Château Canon – Saint-Emilion 1er Grand Cru classé 11</h2></li>
+                                <li><p>75 cL | 220€</p></li>
+                                <li><h2>Château Léoville Barton Saint-Julien – Grand cru classé 09</h2></li>
+                                <li><p>75 cL | 260€</p></li>
+                                <li><h2>Château Figeac – Saint-Emilion 1er Grand Cru classé 09</h2></li>
+                                <li><p>75 cL | 290€</p></li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    
+                    <!-- Glasses -->
+                    <li>
+                      <input id="sub-sub-sub-group-36" type="checkbox" hidden />
+                      <label for="sub-sub-sub-group-36"><span class="fa fa-angle-right"></span>Verres</label>
+                      <ul class="sub-sub-sub-group-list">
+                        <!-- Rosé wines -->
+                        <li>
+                          <input id="sub-sub-sub-sub-group-36" type="checkbox" hidden />
+                          <label for="sub-sub-sub-sub-group-36"><span class="fa fa-angle-right"></span>Vins rosés</label>
+                          <ul class="sub-sub-sub-sub-group-list">
+                            <li><h2>Rosé bio – la Winerie Adrien Pélissié 2020</h2></li>
+                            <li><p>15 cL | 8€</p></li>
+                            <li><h2>Domaine de l’Île « Bio » 20 Porquerolles Maison CHANEL</h2></li>
+                            <li><p>15 cL | 10€</p></li>
+                            <li><h2>Château Minuty – Rosé et Or Côtes de Provence 2020</h2></li>
+                            <li><p>15 cL | 13€</p></li>
+                          </ul>
+                        </li>
+
+                        <!-- White wines -->
+                        <li>
+                          <input id="sub-sub-sub-sub-group-37" type="checkbox" hidden />
+                          <label for="sub-sub-sub-sub-group-37"><span class="fa fa-angle-right"></span>Vins blancs</label>
+                          <ul class="sub-sub-sub-sub-group-list">
+                            <li><h2>Viognier – Vermentino bio – la Winerie Adrien Pelissié 2020</h2></li>
+                            <li><p>15 cL | 8€</p></li>
+                            <li><h2>Chablis – Le Finage La Chablisienne 17</h2></li>
+                            <li><p>15 cL | 10€</p></li>
+                            <li><h2>Vézelay AOC Couvent des Saint Pères 17</h2></li>
+                            <li><p>15 cL | 10€</p></li>
+                            <li><h2>Pouilly Fumé Pascal Jolivet 2020</h2></li>
+                            <li><p>15 cL | 12€</p></li>
+                            <li><h2>Chenin – Le Grand Lever Domaine – La Bouche du Roi A. Pelissié & J. Brustis 20</h2></li>
+                            <li><p>15 cL | 13€</p></li>
+                            <li><h2>Château Petit-Guiraud Sauternes AOC – 19</h2></li>
+                            <li><p>15 cL | 14€</p></li>
+                          </ul>
+                        </li>
+
+                        <!-- Red wines -->
+                        <li>
+                          <input id="sub-sub-sub-sub-group-38" type="checkbox" hidden />
+                          <label for="sub-sub-sub-sub-group-38"><span class="fa fa-angle-right"></span>Vins rouges</label>
+                          <ul class="sub-sub-sub-sub-group-list">
+                            <li><h2>Moulin à Vent Couvent des Thorins 2019</h2></li>
+                            <li><p>15 cL | 10€</p></li>
+                            <li><h2>Cabernet franc – Coquilles rouge Domaine – La Bouche du Roi A. Pelissié & J. Brustis 20</h2></li>
+                            <li><p>15 cL | 12€</p></li>
+                            <li><h2>Crozes-Hermitage – Les Launes Delas 20</h2></li>
+                            <li><p>15 cL | 10€</p></li>
+                            <li><h2>Chorey-Les-Beaunes – Les Poiriers Decelle & Villa 2018</h2></li>
+                            <li><p>15 cL | 15€</p></li>
+                            <li><h2>Saint-Estèphe 2017 La Devise de Lilian</h2></li>
+                            <li><p>15 cL | 10€</p></li>
+                            <li><h2>Château Landiras – Graves Jeanne de Lestonnac 2016</h2></li>
+                            <li><p>15 cL | 10€</p></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+                <!-- Champagnes -->
+                <li>
+                  <input id="sub-sub-group-39" type="checkbox" hidden />
+                  <label for="sub-sub-group-39"><span class="fa fa-angle-right"></span>Champagnes</label>
+                  <ul class="sub-sub-group-list">
+                    <!-- Bottles -->
+                    <li>
+                      <input id="sub-sub-sub-group-39" type="checkbox" hidden />
+                      <label for="sub-sub-sub-group-39"><span class="fa fa-angle-right"></span>Bouteilles</label>
+                      <ul class="sub-sub-sub-group-list">
+                        <li><h2>Rœderer brut premier</h2></li>
+                        <li><p>75 cL | 98€</p></li>
+                        <li><h2>R de Ruinart</h2></li>
+                        <li><p>75 cL | 90€</p></li>
+                        <li><h2>Roederer Rosé millésimé 2013</h2></li>
+                        <li><p>75 cL | 95€</p></li>
+                        <li><h2>Roederer Brut millésimé 2012</h2></li>
+                        <li><p>75 cL | 95€</p></li>
+                        <li><h2>Roederer Blanc de Blancs 2014</h2></li>
+                        <li><p>75 cL | 95€</p></li>
+                        <li><h2>Bollinger spécial cuvée</h2></li>
+                        <li><p>75 cL | 115€</p></li>
+                        <li><h2>Veuve Clicquot</h2></li>
+                        <li><p>75 cL | 105€</p></li>
+                        <li><h2>Moet & Chandon Grand Vintage 2012</h2></li>
+                        <li><p>75 cL | 120€</p></li>
+                        <li><h2>Billecart-Salmon rosé</h2></li>
+                        <li><p>75 cL | 120€</p></li>
+                        <li><h2>Palmes d’or brut vintage 2006 Nicolas Feuillatte</h2></li>
+                        <li><p>75 cL | 130€</p></li>
+                        <li><h2>Cuvée Louise 2004 Pommery</h2></li>
+                        <li><p>75 cL | 180€</p></li>
+                        <li><h2>Blanc des Millénaires 2006 Charles Heidsieck</h2></li>
+                        <li><p>75 cL | 240€</p></li>
+                        <li><h2>Collection Crayères bouteille Charles Heidsieck (300 cl)</h2></li>
+                        <li><p>300 cL | 290€</p></li>
+                        <li><h2>Collection Crayères jeroboam 1989</h2></li>
+                        <li><p>75 cL | 800€</p></li>
+                        <li><h2>Dom Pérignon – Vintage – 2012</h2></li>
+                        <li><p>75 cL | 220€</p></li>
+                        <li><h2>Dom Ruinart 2009</h2></li>
+                        <li><p>75 cL | 240€</p></li>
+                        <li><h2>Cristal Roederer 2013</h2></li>
+                        <li><p>75 cL | 260€</p></li>
+                      </ul>
+                    </li>
+
+                    <!-- Cups -->
+                    <li>
+                      <input id="sub-sub-sub-group-40" type="checkbox" hidden />
+                      <label for="sub-sub-sub-group-40"><span class="fa fa-angle-right"></span>Coupes</label>
+                      <ul class="sub-sub-sub-group-list">
+                        <li><h2>Roederer Brut Premier</h2></li>
+                        <li><p>15 cL | 16€</p></li>
+                        <li><h2>Roederer Blanc de Blancs 2014</h2></li>
+                        <li><p>15 cL | 18€</p></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <!-- Beers -->
+            <li>
+              <input id="sub-group-41" type="checkbox" hidden />
+              <label for="sub-group-41"><span class="fa fa-angle-right"></span>Bières</label>
+              <ul class="sub-group-list">
+                <!-- Pression -->
+                <li>
+                  <input id="sub-sub-group-41" type="checkbox" hidden />
+                  <label for="sub-sub-group-41"><span class="fa fa-angle-right"></span>Pressions</label>
+                  <ul class="sub-sub-group-list">
+                    <li><h2>Carlsberg</h2></li>
+                    <li><p>25 cL | 8€</p></li>
+                    <li><p>50 cL | 14€</p></li>
+                    <li><h2>1664</h2></li>
+                    <li><p>25 cL | 8€</p></li>
+                    <li><p>50 cL | 14€</p></li>
+                  </ul>
+                </li>
+                
+                <!-- Bottles -->
+                <li>
+                  <input id="sub-sub-group-42" type="checkbox" hidden />
+                  <label for="sub-sub-group-42"><span class="fa fa-angle-right"></span>Bouteilles</label>
+                  <ul class="sub-sub-group-list">
+                    <li><h2>Carlsberg</h2></li>
+                    <li><p>33 cL | 10€</p></li>
+                    <li><h2>1664 blanche</h2></li>
+                    <li><p>33 cL | 10€</p></li>
+                    <li><h2>Corona</h2></li>
+                    <li><p>35.5 cL | 10€</p></li>
+                    <li><h2>Duvel</h2></li>
+                    <li><p>33 cL | 12€</p></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
 
 
-          <!-- Classic -->
-          <button class="accordion">Nos classiques</button>
-          <h2>83 Auteuil</h2>
-          <p>Piscine de sauterne & champagne roederer 16€</p>
-          <br><br>
-          <h2>Margarita</h2>
-          <p>Sauza blanco, jus citron vert, triple sec 13€</p>
-          <br><br>
-          <h2>Cosmopolitan</h2>
-          <p>Skyy, jus citron vert, jus cranberry, triple sec 13€</p>
-          <br><br>
-          <h2>Porn star martini</h2>
-          <p>Skyy, fruit de la passion, sirop vanille, jus citron vert, shot de prosecco 15€</p>
-          <br><br>
-          <h2>Mojito (option mango ou raspberry)</h2>
-          <p>Rhum blanc trois rivieres, jus citron vert, menthe fraiche, sucre et eau gazeuse 13€</p>
-          <br><br>
-          <h2>Caïpirinha</h2>
-          <p>Leblon, citron vert et sucre roux 13€</p>
+            <!-- Classic -->
+            <li>
+              <input id="sub-group-43" type="checkbox" hidden />
+              <label for="sub-group-43"><span class="fa fa-angle-right"></span>Classiques</label>
+              <ul class="sub-group-list">
+                <li><h2>83 Auteuil</h2></li>
+                <li><p>Piscine de sauterne & champagne roederer 16€</p></li>
+                <li><h2>Margarita</h2></li>
+                <li><p>Sauza blanco, jus citron vert, triple sec 13€</p></li>
+                <li><h2>Cosmopolitan</h2></li>
+                <li><p>Skyy, jus citron vert, jus cranberry, triple sec 13€</p></li>
+                <li><h2>Porn star martini</h2></li>
+                <li><p>Skyy, fruit de la passion, sirop vanille, jus citron vert, shot de prosecco 15€</p></li>
+                <li><h2>Mojito (option mango ou raspberry)</h2></li>
+                <li><p>Rhum blanc trois rivieres, jus citron vert, menthe fraiche, sucre et eau gazeuse 13€</p></li>
+                <li><h2>Caïpirinha</h2></li>
+                <li><p>Leblon, citron vert et sucre roux 13€</p></li>
+              </ul>
+            </li>
 
 
-          <!-- Mocktails -->
-          <button class="accordion">Nos mocktails</button>
-          <h2>Apple and mint smash</h2>
-          <p>Mojito arrosé de jus de pomme 10€</p>
-          <br><br>
-          <h2>Cloudy house lemonade</h2>
-          <p>Mélange d'agrumes, de citron du Mexique, arrosé de limonade 10€</p>
-          <br><br>
-          <h2>Virgin colada</h2>
-          <p>Piña colada sans le rhum 10€</p>
+            <!-- Mocktails -->
+            <li>
+              <input id="sub-group-44" type="checkbox" hidden />
+              <label for="sub-group-44"><span class="fa fa-angle-right"></span>Mocktails</label>
+              <ul class="sub-group-list">
+                <li><h2>Apple & mint smash</h2></li>
+                <li><p>Mojito arrosé de jus de pomme 10€</p></li>
+                <li><h2>Cloudy house lemonade</h2></li>
+                <li><p>Mélange d'agrumes, de citron du Mexique, arrosé de limonade 10€</p></li>
+                <li><h2>Virgin colada</h2></li>
+                <li><p>Piña colada sans le rhum 10€</p></li>
+              </ul>
+            </li>
 
 
-          <!-- Highballs -->
-          <button class="accordion">Nos highballs</button>
-          <h2>Moscow mule ou Carribean mule</h2>
-          <p>Rhum trois rivieres ambre, jus citron vert, fentiman’s ginger beer 13€</p>
-          <br><br>
-          <h2>Caïpirovska</h2>
-          <p>Vodka noire à la mûre, citron vert, sucre roux 13€</p>
-          <br><br>
-          <h2>Campari negroni</h2>
-          <p>Campari, vermouth, gin bulldog 13€</p>
-          <br><br>
-          <h2>Whisky sour</h2>
-          <p>Knob creek, blanc d’oeuf, citron, angostura, sucre de canne 13€</p>
-          <br><br>
-          <h2>Aperol spritz</h2>
-          <p>Aperol, prosecco, eau gazeuze 13€</p>
-          <br><br>
-          <h2>Ti-punch la perle</h2>
-          <p>Rhum à 1710 la perle, citron vert, sucre roux 13€</p>
-          <br><br>
-          <h2>Southside</h2>
-          <p>Bulldog, menthe, citron vert, sucre de canne 11€</p>
-          <br><br>
-          <h2>G&T</h2>
-          <p>Bulldog, fentiman's tonic 13€</p>
+            <!-- Highballs -->
+            <li>
+              <input id="sub-group-45" type="checkbox" hidden />
+              <label for="sub-group-45"><span class="fa fa-angle-right"></span>Highballs</label>
+              <ul class="sub-group-list">
+                <li><h2>Moscow mule ou Carribean mule</h2></li>
+                <li><p>Rhum trois rivieres ambre, jus citron vert, fentiman’s ginger beer 13€</p></li>
+                <li><h2>Caïpirovska</h2></li>
+                <li><p>Vodka noire à la mûre, citron vert, sucre roux 13€</p></li>
+                <li><h2>Campari negroni</h2></li>
+                <li><p>Campari, vermouth, gin bulldog 13€</p></li>
+                <li><h2>Whisky sour</h2></li>
+                <li><p>Knob creek, blanc d’oeuf, citron, angostura, sucre de canne 13€</p></li>
+                <li><h2>Aperol spritz</h2></li>
+                <li><p>Aperol, prosecco, eau gazeuze 13€</p></li>
+                <li><h2>Ti-punch la perle</h2></li>
+                <li><p>Rhum à 1710 la perle, citron vert, sucre roux 13€</p></li>
+                <li><h2>Southside</h2></li>
+                <li><p>Bulldog, menthe, citron vert, sucre de canne 11€</p></li>
+                <li><h2>G&T</h2></li>
+                <li><p>Bulldog, fentiman's tonic 13€</p></li>
+              </ul>
+            </li>
 
 
-          <!-- Alcohol -->
-          <button class="accordion">Nos alcools</button>
-          <!-- Armagnac -->
-          <button class="accordion">Armagnac</button>
-          <h2>Armagnac LAUBADE 1970</h2>
-          <p>40 mL | 15€</p>
-          <br><br>
-          <h2>L'encatada 1973 domaine des sables</h2>
-          <p>40 mL | 26€</p>
-          <br><br>
-          <h2>Chateau bordeuneuve hors d'âge</h2>
-          <p>40 mL | 15€</p>
+            <!-- Alcohol -->
+            <li>
+              <input id="sub-group-46" type="checkbox" hidden />
+              <label for="sub-group-46"><span class="fa fa-angle-right"></span>Alcools</label>
+              <ul class="sub-group-list">
+                <!-- Armagnac -->
+                <li>
+                  <input id="sub-sub-group-46" type="checkbox" hidden />
+                  <label for="sub-sub-group-46"><span class="fa fa-angle-right"></span>Armagnac</label>
+                  <ul class="sub-sub-group-list">
+                    <li><h2>Armagnac LAUBADE 1970</h2></li>
+                    <li><p>40 mL | 15€</p></li>
+                    <li><h2>L'encatada 1973 domaine des sables</h2></li>
+                    <li><p>40 mL | 26€</p></li>
+                    <li><h2>Chateau bordeuneuve hors d'âge</h2></li>
+                    <li><p>40 mL | 15€</p></li>
+                  </ul>
+                </li>
 
-          <!-- Cognac -->
-          <button class="accordion">Cognac</button>
-          <h2>Hennesy very special</h2>
-          <p>40 mL | 12€</p>
-          <br><br>
-          <h2>Courvoisier XO</h2>
-          <p>40 mL | 25€</p>
-          <br><br>
-          <h2>Henessy paradis imperial</h2>
-          <p>40 mL | 180€</p>
+                <!-- Cognac -->
+                <li>
+                  <input id="sub-sub-group-47" type="checkbox" hidden />
+                  <label for="sub-sub-group-47"><span class="fa fa-angle-right"></span>Cognac</label>
+                  <ul class="sub-sub-group-list">
+                    <li><h2>Hennesy very special</h2></li>
+                    <li><p>40 mL | 12€</p></li>
+                    <li><h2>Courvoisier XO</h2></li>
+                    <li><p>40 mL | 25€</p></li>
+                    <li><h2>Henessy paradis imperial</h2></li>
+                    <li><p>40 mL | 180€</p></li>
+                  </ul>
+                </li>
 
-          <!-- Calvados -->
-          <button class="accordion">Calvados</button>
-          <h2>Christian DROUIN hors d'âge</h2>
-          <p>40 mL | 20€</p>
-          <br><br>
-          <h2>Christian DROUIN 1973</h2>
-          <p>40 mL | 55€</p>
+                <!-- Calvados -->
+                <li>
+                  <input id="sub-sub-group-48" type="checkbox" hidden />
+                  <label for="sub-sub-group-48"><span class="fa fa-angle-right"></span>Calvados</label>
+                  <ul class="sub-sub-group-list">
+                    <li><h2>Christian DROUIN hors d'âge</h2></li>
+                    <li><p>40 mL | 20€</p></li>
+                    <li><h2>Christian DROUIN 1973</h2></li>
+                    <li><p>40 mL | 55€</p></li>
+                  </ul>
+                </li>
 
-          <!-- Rhum -->
-          <button class="accordion">Rhum</button>
-          <h2>Ron Zacapa 23 ans Guatemala</h2>
-          <p>40 mL | 15€</p>
-          <br><br>
-          <h2>Bacardi 8 ans Porto Rico</h2>
-          <p>40 mL | 12€</p>
-          <br><br>
-          <h2>Angostura 1919 trinidad & tobago</h2>
-          <p>40 mL | 11€</p>
-          <br><br>
-          <h2>Diplomatico riserva</h2>
-          <p>40 mL | 15€</p>
-          <br><br>
-          <h2>La perle à 1710</h2>
-          <p>40 mL | 12€</p>
-          <br><br>
-          <h2>Barcelo imperial</h2>
-          <p>40 mL | 20€</p>
+                <!-- Rhum -->
+                <li>
+                  <input id="sub-sub-group-49" type="checkbox" hidden />
+                  <label for="sub-sub-group-49"><span class="fa fa-angle-right"></span>Rhum</label>
+                  <ul class="sub-sub-group-list">
+                    <li><h2>Ron Zacapa 23 ans Guatemala</h2></li>
+                    <li><p>40 mL | 15€</p></li>
+                    <li><h2>Bacardi 8 ans Porto Rico</h2></li>
+                    <li><p>40 mL | 12€</p></li>
+                    <li><h2>Angostura 1919 trinidad & tobago</h2></li>
+                    <li><p>40 mL | 11€</p></li>
+                    <li><h2>Diplomatico riserva</h2></li>
+                    <li><p>40 mL | 15€</p></li>
+                    <li><h2>La perle à 1710</h2></li>
+                    <li><p>40 mL | 12€</p></li>
+                    <li><h2>Barcelo imperial</h2></li>
+                    <li><p>40 mL | 20€</p></li>
+                  </ul>
+                </li>
 
-          <!-- Vodka -->
-          <button class="accordion">Vodka</button>
-          <h2>Grey goose france</h2>
-          <p>40 mL | 13€</p>
 
-          <!-- Tequila -->
-          <button class="accordion">Tequila</button>
-          <h2>Patron alejo Mexique</h2>
-          <p>40 mL | 18€</p>
-          
-          <!-- Gin -->
-          <button class="accordion">Gin</button>
-          <h2>Hendrick's UK</h2>
-          <p>40 mL | 12€</p>
-          <br><br>
-          <h2>Citadelle france</h2>
-          <p>40 mL | 11€</p>
+                <!-- Vodka -->
+                <li>
+                  <input id="sub-sub-group-50" type="checkbox" hidden />
+                  <label for="sub-sub-group-50"><span class="fa fa-angle-right"></span>Vodka</label>
+                  <ul class="sub-sub-group-list">
+                    <li><h2>Grey goose france</h2></li>
+                    <li><p>40 mL | 13€</p></li>
+                  </ul>
+                </li>
 
-          <!-- Whiskies -->
-          <button class="accordion">Whiskies</button>
-          <!-- Blended whisky -->
-          <button class="accordion">Blended whisky</button>
-          <h2>Johnnie Walker black label, Ecosse</h2>
-          <p>40 mL | 12€</p>
-          <br><br>
-          <h2>Hibiki 17 ans, Japon</h2>
-          <p>40 mL | 26€</p>
-          <!-- Single malt -->
-          <button class="accordion">Single malt</button>
-          <h2>Cardhu 12 ans speyside, Ecosse</h2>
-          <p>40 mL | 15€</p>
-          <br><br>
-          <h2>Glenffiddich 12 ans speyside, Ecosse</h2>
-          <p>40 mL | 12€</p>
-          <br><br>
-          <h2>Laphroaig 10 ans islay, Ecosse</h2>
-          <p>40 mL | 15€</p>
-          <br><br>
-          <h2>Oban 14 ans highlands, Ecosse</h2>
-          <p>40 mL | 15€</p>
-          <br><br>
-          <h2>Aberfeldy 12 ans speyside, Ecosse</h2>
-          <p>40 mL | 13€</p>
-          <br><br>
-          <h2>Bowmore 12 ans islay, Ecosse</h2>
-          <p>40 mL | 12€</p>
-          <h2>Craigglachie 13 ans speyside, Ecosse</h2>
-          <p>40 mL | 13€</p>
-          <!-- Bourbon & Rye whisky -->
-          <button class="accordion">Bourbon & Rye whisky</button>
-          <h2>Knob creek Kentucky, USA</h2>
-          <p>40 mL | 15€</p>
-          <br><br>
-          <h2>Maker's mark Kentucky, USA</h2>
-          <p>40 mL | 13€</p>
-          <br><br>
-          <h2>Jim Beam rye Kentucky, USA</h2>
-          <p>40 mL | 10€</p>
+                <!-- Tequila -->
+                <li>
+                  <input id="sub-sub-group-51" type="checkbox" hidden />
+                  <label for="sub-sub-group-51"><span class="fa fa-angle-right"></span>Tequila</label>
+                  <ul class="sub-sub-group-list">
+                    <li><h2>Patron alejo Mexique</h2></li>
+                    <li><p>40 mL | 18€</p></li>
+                  </ul>
+                </li>
 
-          <!-- Grappa -->
-          <button class="accordion">Grappa</button>
-          <h2>Grappa di moscato giallo "CAPOVILLA" Italie</h2>
-          <p>40 mL | 15€</p>
-          <br><br>
-          <h2>Grappa di barolo giallo "CAPOVILLA" Italie</h2>
-          <p>40 mL | 15€</p>
+                
+            
+                <!-- Gin -->
+                <li>
+                  <input id="sub-sub-group-52" type="checkbox" hidden />
+                  <label for="sub-sub-group-52"><span class="fa fa-angle-right"></span>Gin</label>
+                  <ul class="sub-sub-group-list">
+                    <li><h2>Hendrick's UK</h2></li>
+                    <li><p>40 mL | 12€</p></li>
+                    <li><h2>Citadelle france</h2></li>
+                    <li><p>40 mL | 11€</p></li>
+                  </ul>
+                </li>
 
-          <!-- Liqueurs et digestifs -->
-          <button class="accordion">Liqueurs et digestifs</button>
-          <h2>Get 27, Get 31</h2>
-          <p>40 mL | 9€</p>
-          <br><br>
-          <h2>Vieille prûne "Louis Roques"</h2>
-          <p>40 mL | 13€</p>
-          <br><br>
-          <h2>Eau de vie poire William</h2>
-          <p>40 mL | 10€</p>
-          <br><br>
-          <h2>Eau de vie mirabelle</h2>
-          <p>40 mL | 10€</p>
-          <br><br>
-          <h2>Eau de vie framboise</h2>
-          <p>40 mL | 10€</p>
-          <br><br>
-          <h2>Amaretto, Bailey's, Cointreau, Limoncello</h2>
-          <p>40 mL | 12€</p>
-          <br><br>
-          <h2>Chartreuse verte</h2>
-          <p>40 mL | 16€</p>
-          <h2>Chartreuse jaune</h2>
-          <p>40 mL | 16€</p>
+                <!-- Whiskies -->
+                <li>
+                  <input id="sub-sub-group-53" type="checkbox" hidden />
+                  <label for="sub-sub-group-53"><span class="fa fa-angle-right"></span>Whiskies</label>
+                  <ul class="sub-sub-group-list">
+                    <!-- Blended whiskies -->
+                    <li>
+                      <input id="sub-sub-sub-group-53" type="checkbox" hidden />
+                      <label for="sub-sub-sub-group-53"><span class="fa fa-angle-right"></span>Blended whiskies</label>
+                      <ul class="sub-sub-sub-group-list">
+                        <li><h2>Johnnie Walker black label, Ecosse</h2></li>
+                        <li><p>40 mL | 12€</p></li>
+                        <li><h2>Hibiki 17 ans, Japon</h2></li>
+                        <li><p>40 mL | 26€</p></li>
+                      </ul>
+                    </li>
 
-        </div>
+                    <!-- Single malt -->
+                    <li>
+                      <input id="sub-sub-sub-group-54" type="checkbox" hidden />
+                      <label for="sub-sub-sub-group-54"><span class="fa fa-angle-right"></span>Single malt</label>
+                      <ul class="sub-sub-sub-group-list">
+                        <li><h2>Cardhu 12 ans speyside, Ecosse</h2></li>
+                        <li><p>40 mL | 15€</p></li>
+                        
+                        <li><h2>Glenffiddich 12 ans speyside, Ecosse</h2></li>
+                        <li><p>40 mL | 12€</p></li>
+                        
+                        <li><h2>Laphroaig 10 ans islay, Ecosse</h2></li>
+                        <li><p>40 mL | 15€</p></li>
+                        
+                        <li><h2>Oban 14 ans highlands, Ecosse</h2></li>
+                        <li><p>40 mL | 15€</p></li>
+                        
+                        <li><h2>Aberfeldy 12 ans speyside, Ecosse</h2></li>
+                        <li><p>40 mL | 13€</p></li>
+                        
+                        <li><h2>Bowmore 12 ans islay, Ecosse</h2></li>
+                        <li><p>40 mL | 12€</p></li>
+                        <li><h2>Craigglachie 13 ans speyside, Ecosse</h2></li>
+                        <li><p>40 mL | 13€</p></li>
+                      </ul>
+                    </li>
+
+                    <!-- Bourbon & Rye whiskies -->
+                    <li>
+                      <input id="sub-sub-sub-group-55" type="checkbox" hidden />
+                      <label for="sub-sub-sub-group-55"><span class="fa fa-angle-right"></span>Bourbon & Rye whiskies</label>
+                      <ul class="sub-sub-sub-group-list">
+                        <li><h2>Knob creek Kentucky, USA</h2></li>
+                        <li><p>40 mL | 15€</p></li>
+                        
+                        <li><h2>Maker's mark Kentucky, USA</h2></li>
+                        <li><p>40 mL | 13€</p></li>
+                        
+                        <li><h2>Jim Beam rye Kentucky, USA</h2></li>
+                        <li><p>40 mL | 10€</p></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+                <!-- Grappa -->
+                <li>
+                  <input id="sub-sub-group-56" type="checkbox" hidden />
+                  <label for="sub-sub-group-56"><span class="fa fa-angle-right"></span>Grappa</label>
+                  <ul class="sub-sub-group-list">
+                    <li><h2>Grappa di moscato giallo "CAPOVILLA" Italie</h2></li>
+                    <li><p>40 mL | 15€</p></li>
+                    
+                    <li><h2>Grappa di barolo giallo "CAPOVILLA" Italie</h2></li>
+                    <li><p>40 mL | 15€</p></li>
+                  </ul>
+                </li>
+
+                <!-- Liqueurs & digestifs -->
+                <li>
+                  <input id="sub-sub-group-56" type="checkbox" hidden />
+                  <label for="sub-sub-group-56"><span class="fa fa-angle-right"></span>Liqueurs & digestifs</label>
+                  <ul class="sub-sub-group-list">
+                    <li><h2>Get 27, Get 31</h2></li>
+                    <li><p>40 mL | 9€</p></li>
+                    
+                    <li><h2>Vieille prûne "Louis Roques"</h2></li>
+                    <li><p>40 mL | 13€</p></li>
+                    
+                    <li><h2>Eau de vie poire William</h2></li>
+                    <li><p>40 mL | 10€</p></li>
+                    
+                    <li><h2>Eau de vie mirabelle</h2></li>
+                    <li><p>40 mL | 10€</p></li>
+                    <li><h2>Eau de vie framboise</h2></li>
+                    <li><p>40 mL | 10€</p></li>
+                    <li><h2>Amaretto, Bailey's, Cointreau, Limoncello</h2></li>
+                    <li><p>40 mL | 12€</p></li>
+                    <li><h2>Chartreuse verte</h2></li>
+                    <li><p>40 mL | 16€</p></li>
+                    <li><h2>Chartreuse jaune</h2></li>
+                    <li><p>40 mL | 16€</p></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
 
         <!-- Hot drink -->
-        <button class="accordion">Boissons chaudes</button>
-        <div class="panel">
-          <button class="accordion">Boissons</button>
-          <h2>Café expresso 3.9€</h2>
-          <h2>Infusions 6€</h2>
-          <h2>Chocolat chaud maison 8€</h2>
-          <button class="accordion">Thés "MARIAGE FRERES" 8€</button>
-          <h2>Earl grey</h2>
-          <h2>Ceylan</h2>
-          <h2>Darjeeling</h2>
-          <h2>Marco polo</h2>
-          <h2>Thé vert Fuji Yama</h2>
-          <h2>Thé vert jasmin</h2>
-        </div>
+        <li>
+          <input id="group-40" type="checkbox" hidden/>
+          <label for="group-40"><span class="fa fa-angle-right"></span>Boissons chaudes</label>
+          <ul class="group-list">
+            <li>
+              <input id="sub-group-40" type="checkbox" hidden />
+              <label for="sub-group-40"><span class="fa fa-angle-right"></span>Boissons</label>
+              <ul class="sub-group-list">
+                <li><h2>Café expresso 3.9€</h2></li>
+                <li><h2>Infusions 6€</h2></li>
+                <li><h2>Chocolat chaud maison 8€</h2></li>
+              </ul>
+            </li>
+            <li>
+              <input id="sub-group-41" type="checkbox" hidden />
+              <label for="sub-group-41"><span class="fa fa-angle-right"></span>Thés "Mariages Frères"</label>
+              <ul class="sub-group-list">
+                <li><h2>Earl grey</h2></li>
+                <li><h2>Ceylan</h2></li>
+                <li><h2>Darjeeling</h2></li>
+                <li><h2>Marco polo</h2></li>
+                <li><h2>Thé vert Fuji Yama</h2></li>
+                <li><h2>Thé vert jasmin</h2></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
 
-        <!-- Milk-shakes -->
-        <button class="accordion">Milk-shakes</button>
-        <div class="panel">
-          <h2>Vanille</h2>
-          <h2>Fraise</h2>
-          <h2>Oréo cookie</h2>
-          <h2>Chocolat</h2>
-          <p>12€</p>
-        </div>
-      </div>
+        <!-- Milkshakes -->
+        <li>
+          <input id="group-42" type="checkbox" hidden/>
+          <label for="group-42"><span class="fa fa-angle-right"></span>Milkshakes</label>
+          <ul class="group-list">
+            <li><h2>Vanille</h2></li>
+            <li><h2>Fraise</h2></li>
+            <li><h2>Oréo cookie</h2></li>
+            <li><h2>Chocolat</h2></li>
+            <li><p>12€</p></li>
+          </ul>
+        </li>
+      </ul>
 
 
       <!-- Allergens -->
-      <div id="allergens" class="tabcontent">
+      <ul id="allergens" class="tabcontent">
         <!-- Mustard -->
-        <button class="accordion">Moutarde</button>
-        <div class="panel">
-          <h2>Sauce creamy spicy</h2>
-          <br><br>
-          <h2>Tartare de boeuf</h2>
-          <br><br>
-          <h2>Crispy tuna sushi</h2>
-          <br><br>
-          <h2>Vinaigrettes</h2>
-          <br><br>
-          <h2>Mayonnaise</h2>
-        </div>
-        <!-- Crustacés -->
-        <button class="accordion">Crustacés</button>
-        <div class="panel">
-          <h2>King Crab</h2>
-          <br><br>
-          <h2>Sauce tigre</h2>
-          <br><br>
-          <h2>Rémoulade céleri & tourteau</h2>
-        </div>
+        <li>
+          <input id="group-43" type="checkbox" hidden/>
+          <label for="group-43"><span class="fa fa-angle-right"></span>Mustard</label>
+          <ul class="group-list">
+            <li><h2>Sauce creamy spicy</h2></li>
+            <li><h2>Tartare de boeuf</h2></li>
+            <li><h2>Crispy tuna sushi</h2></li>
+            <li><h2>Vinaigrettes</h2></li>
+            <li><h2>Mayonnaise</h2></li>
+          </ul>
+        </li>
+
+        <!-- Crustaceans -->
+        <li>
+          <input id="group-44" type="checkbox" hidden/>
+          <label for="group-44"><span class="fa fa-angle-right"></span>Crustacés</label>
+          <ul class="group-list">
+            <li><h2>King Crab</h2></li>
+            <li><h2>Sauce tigre</h2></li>
+            <li><h2>Rémoulade céleri & tourteau</h2></li>
+          </ul>
+        </li>
+
         <!-- Fishes -->
-        <button class="accordion">Poissons</button>
-        <div class="panel">
-          <h2>Crispy tuna sushi</h2>
-          <br><br>
-          <h2>Saumon fumé</h2>
-          <br><br>
-          <h2>Rémoulade céleri & tourteau</h2>
-          <br><br>
-          <h2>Carpaccio de saint Jacques</h2>
-          <br><br>
-          <h2>Noix de saint jacques snackées</h2>
-          <br><br>
-          <h2>Thon snacké</h2>
-          <br><br>
-          <h2>Cabillaud rôti</h2>
-          <br><br>
-          <h2>La sole</h2>
-          <br><br>
-          <h2>Tigre</h2>
-          <p>(Anchois dans la marinade)</p>
-        </div>
-        <!-- Mollusques -->
-        <button class="accordion">Mollusques</button>
-        <div class="panel">
-          <h2>Calamars croustillants</h2>
-          <br><br>
-          <h2>Tigre</h2>
-          <p>(Dans la marinade)</p>
-        </div>
+        <li>
+          <input id="group-45" type="checkbox" hidden/>
+          <label for="group-45"><span class="fa fa-angle-right"></span>Poissons</label>
+          <ul class="group-list">
+            <li><h2>Crispy tuna sushi</h2></li>
+            <li><h2>Saumon fumé</h2></li>
+            <li><h2>Rémoulade céleri & tourteau</h2></li>
+            <li><h2>Carpaccio de saint Jacques</h2></li>
+            <li><h2>Noix de saint jacques snackées</h2></li>
+            <li><h2>Thon snacké</h2></li>
+            <li><h2>Cabillaud rôti</h2></li>
+            <li><h2>La sole</h2></li>
+            <li><h2>Tigre</h2></li>
+            <li><p>(Anchois dans la marinade)</p></li>
+          </ul>
+        </li>
+
+        <!-- Molluscs -->
+        <li>
+          <input id="group-46" type="checkbox" hidden/>
+          <label for="group-46"><span class="fa fa-angle-right"></span>Mollusques</label>
+          <ul class="group-list">
+            <li><h2>Calamars croustillants</h2></li>
+            <li><h2>Tigre</h2></li>
+            <li><p>(Dans la marinade)</p></li>
+          </ul>
+        </li>
+
         <!-- Cereals, gluten -->
-        <button class="accordion">Céreales, gluten</button>
-        <div class="panel">
-          <h2>Saumon fumé</h2>
-          <p>(Quelques toasts)</p>
-          <br><br>
-          <h2>Calamars croustillants</h2>
-          <br><br>
-          <h2>Nem de poulet</h2>
-          <br><br>
-          <h2>Cabillaud</h2>
-          <br><br>
-          <h2>Burrata artichaut</h2>
-          <br><br>
-          <h2>Tartare de boeuf</h2>
-          <br><br>
-          <h2>Le tigre qui pleure</h2>
-          <br><br>
-          <h2>La milanaise</h2>
-          <br><br>
-          <h2>Penne</h2>
-          <br><br>
-          <h2>Tarte chocolat-café</h2>
-          <br><br>
-          <h2>Tarte citron</h2>
-          <br><br>
-          <h2>Ile flottante</h2>
-          <br><br>
-          <h2>Fruits rouges, glace yaourt et chantilly</h2>
-          <br><br>
-          <h2>Pain</h2>
-          <br><br>
-          <h2>Biscuit sur glaces et sorbets</h2>
-          <br><br>
-          <h2>Pavlova glacée poire</h2>
-        </div>
+        <li>
+          <input id="group-47" type="checkbox" hidden/>
+          <label for="group-47"><span class="fa fa-angle-right"></span>Céréales, gluten</label>
+          <ul class="group-list">
+            <li><h2>Saumon fumé</h2></li>
+            <li><p>(Quelques toasts)</p></li>
+            <li><h2>Calamars croustillants</h2></li>
+            <li><h2>Nem de poulet</h2></li>
+            <li><h2>Cabillaud</h2></li>
+            <li><h2>Burrata artichaut</h2></li>
+            <li><h2>Tartare de boeuf</h2></li>
+            <li><h2>Le tigre qui pleure</h2></li>
+            <li><h2>La milanaise</h2></li>
+            <li><h2>Penne</h2></li>
+            <li><h2>Tarte chocolat-café</h2></li>
+            <li><h2>Tarte citron</h2></li>
+            <li><h2>Ile flottante</h2></li>
+            <li><h2>Fruits rouges, glace yaourt et chantilly</h2></li>
+            <li><h2>Pain</h2></li>
+            <li><h2>Biscuit sur glaces et sorbets</h2></li>
+            <li><h2>Pavlova glacée poire</h2></li>
+          </ul>
+        </li>
+
         <!-- Milk -->
-        <button class="accordion">Lait</button>
-        <div class="panel">
-          <h2>Saumon fumé</h2>
-          <p>(Crème fraîche)</p>
-          <br><br>
-          <h2>Velouté de potimarron</h2>
-          <br><br>
-          <h2>Pomme purée</h2>
-          <br><br>
-          <h2>Sauce béarnaise</h2>
-          <br><br>
-          <h2>Comté 24 mois</h2>
-          <br><br>
-          <h2>Chèvre frais Dominique Fabre</h2>
-          <br><br>
-          <h2>Tarte chocolat-café</h2>
-          <br><br>
-          <h2>Ile flottante</h2>
-          <br><br>
-          <h2>Tarte citron</h2>
-          <br><br>
-          <h2>Glace vanille</h2>
-          <br><br>
-          <h2>Glace yaourt</h2>
-          <br><br>
-          <h2>Glace caramel beurre salé</h2>
-          <br><br>
-          <h2>Glace café</h2>
-          <br><br>
-          <h2>Crème chantilly</h2>
-          <br><br>
-          <h2>Pavlova Glacée poire</h2>
-        </div>
+        <li>
+          <input id="group-48" type="checkbox" hidden/>
+          <label for="group-48"><span class="fa fa-angle-right"></span>Lait</label>
+          <ul class="group-list">
+            <li><h2>Saumon fumé</h2></li>
+            <li><p>(Crème fraîche)</p></li>
+            <li><h2>Velouté de potimarron</h2></li>
+            <li><h2>Pomme purée</h2></li>
+            <li><h2>Sauce béarnaise</h2></li>
+            <li><h2>Comté 24 mois</h2></li>
+            <li><h2>Chèvre frais Dominique Fabre</h2></li>
+            <li><h2>Tarte chocolat-café</h2></li>
+            <li><h2>Ile flottante</h2></li>
+            <li><h2>Tarte citron</h2></li>
+            <li><h2>Glace vanille</h2></li>
+            <li><h2>Glace yaourt</h2></li>
+            <li><h2>Glace caramel beurre salé</h2></li>
+            <li><h2>Glace café</h2></li>
+            <li><h2>Crème chantilly</h2></li>
+            <li><h2>Pavlova Glacée poire</h2></li>
+          </ul>
+        </li>
+
         <!-- Arachid -->
-        <button class="accordion">Arachide</button>
-        <div class="panel">
-          <h2>Calamars frits</h2>
-          <p>(Friture)</p>
-          <br><br>
-          <h2>Nem de poulet</h2>
-          <p>(Friture)</p>
-          <br><br>
-          <h2>Dos de cabillaud</h2>
-          <br><br>
-          <h2>Le Tigre qui pleure</h2>
-          <br><br>
-          <h2>Tarte citron</h2>
-          <br><br>
-          <h2>Tarte chocolat-café</h2>
-          <br><br>
-          <h2>Ile flottante</h2>
-          <br><br>
-          <h2>Fruits rouges, glace yaourt et chantilly</h2>
-          <br><br>
-          <h2>Noix de cajou</h2>
-          <br><br>
-          <h2>Amandes</h2>
-        </div>
+        <li>
+          <input id="group-49" type="checkbox" hidden/>
+          <label for="group-49"><span class="fa fa-angle-right"></span>Arachides</label>
+          <ul class="group-list">
+            <li><h2>Calamars frits</h2></li>
+            <li><p>(Friture)</p></li>
+            <li><h2>Nem de poulet</h2></li>
+            <li><p>(Friture)</p></li>
+            <li><h2>Dos de cabillaud</h2></li>
+            <li><h2>Le Tigre qui pleure</h2></li>
+            <li><h2>Tarte citron</h2></li>
+            <li><h2>Tarte chocolat-café</h2></li>
+            <li><h2>Ile flottante</h2></li>
+            <li><h2>Fruits rouges, glace yaourt et chantilly</h2></li>
+            <li><h2>Noix de cajou</h2></li>
+            <li><h2>Amandes</h2></li>
+          </ul>
+        </li>
+
         <!-- Eggs -->
-        <button class="accordion">Oeufs </button>
-        <div class="panel">
-          <h2>Oeufs au plat</h2>
-          <br><br>
-          <h2>Omelette</h2>
-          <br><br>
-          <h2>Oeufs bio mimosa</h2>
-          <br><br>
-          <h2>Creamy spicy sauce</h2>
-          <br><br>
-          <h2>Assaisonement salade de légumes crus</h2>
-          <br><br>
-          <h2>Calamars</h2>
-          <br><br>
-          <h2>Tartare de boeuf</h2>
-          <br><br>
-          <h2>Sauce béarnaise</h2>
-          <br><br>
-          <h2>Milanaise</h2>
-          <br><br>
-          <h2>Tarte chocolat</h2>
-          <br><br>
-          <h2>Tarte citron</h2>
-          <br><br>
-          <h2>Ile flottante</h2>
-          <br><br>
-          <h2>Fruits rouges, glace yaourt et chantilly</h2>
-          <br><br>
-          <h2>Glace</h2>
-          <p>(Vanille, caramel beurre salé, café et yaourt)</p>
-        </div>
+        <li>
+          <input id="group-50" type="checkbox" hidden/>
+          <label for="group-50"><span class="fa fa-angle-right"></span>Oeufs</label>
+          <ul class="group-list">
+            <li><h2>Oeufs au plat</h2></li>
+            <li><h2>Omelette</h2></li>
+            <li><h2>Oeufs bio mimosa</h2></li>
+            <li><h2>Creamy spicy sauce</h2></li>
+            <li><h2>Assaisonement salade de légumes crus</h2></li>
+            <li><h2>Calamars</h2></li>
+            <li><h2>Tartare de boeuf</h2></li>
+            <li><h2>Sauce béarnaise</h2></li>
+            <li><h2>Milanaise</h2></li>
+            <li><h2>Tarte chocolat</h2></li>
+            <li><h2>Tarte citron</h2></li>
+            <li><h2>Ile flottante</h2></li>
+            <li><h2>Fruits rouges, glace yaourt et chantilly</h2></li>
+            <li><h2>Glace</h2></li>
+            <li><p>(Vanille, caramel beurre salé, café et yaourt)</p></li>
+          </ul>
+        </li>
+
         <!-- Fruits à coque, Sésame -->
-        <button class="accordion">Fruits à coque, Sésame</button>
-        <div class="panel">
-          <h2>Salade de légumes cru</h2>
-          <br><br>
-          <h2>Cabillaud & pignons de pins</h2>
-          <br><br>
-          <h2>Le Tigre qui pleure</h2>
-          <br><br>
-          <h2>Basmati coco citronnelle</h2>
-          <br><br>
-          <h2>Macaron citron coco</h2>
-          <br><br>
-          <h2>Tarte chocolat-café</h2>
-          <br><br>
-          <h2>Fruits rouges, glace yaourt et chantilly</h2>
-          <br><br>
-          <h2>Noix de cajou</h2>
-          <br><br>
-          <h2>Amandes</h2>
-        </div>
+        <li>
+          <input id="group-51" type="checkbox" hidden/>
+          <label for="group-51"><span class="fa fa-angle-right"></span>Fruits à coque, sésame</label>
+          <ul class="group-list">
+            <li><h2>Salade de légumes cru</h2></li>
+            <li><h2>Cabillaud & pignons de pins</h2></li>
+            <li><h2>Le Tigre qui pleure</h2></li>
+            <li><h2>Basmati coco citronnelle</h2></li>
+            <li><h2>Macaron citron coco</h2></li>
+            <li><h2>Tarte chocolat-café</h2></li>
+            <li><h2>Fruits rouges, glace yaourt et chantilly</h2></li>
+            <li><h2>Noix de cajou</h2></li>
+            <li><h2>Amandes</h2></li>
+          </ul>
+        </li>
+
         <!-- Céleri -->
-        <button class="accordion">Céleri</button>
-        <div class="panel">
-          <h2>Healthy Green D-Tox</h2>
-        </div>
-      </div>
+        <li>
+          <input id="group-52" type="checkbox" hidden/>
+          <label for="group-52"><span class="fa fa-angle-right"></span>Céléri</label>
+          <ul class="group-list">
+            <li><h2>Healthy Green D-Tox</h2></li>
+          </ul>
+        </li>
+      </ul>
 
       <script>
         // JS for tablinks
@@ -1185,24 +1374,8 @@
         elmnt.style.backgroundColor = color;
         }
 
-        // Get the element with id="defaultOpen" and click on it
+        // Get the element with id="defaultOpen" & click on it
         document.getElementById("defaultOpen").click();
-
-        // JS for accordions
-        var acc = document.getElementsByClassName("accordion");
-        var i;
-
-        for (i = 0; i < acc.length; i++) {
-          acc[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var panel = this.nextElementSibling;
-            if (panel.style.maxHeight) {
-              panel.style.maxHeight = null;
-            } else {
-              panel.style.maxHeight = panel.scrollHeight + "px";
-            } 
-          });
-        }
         </script>
     </main>
     <!-- Footer -->
